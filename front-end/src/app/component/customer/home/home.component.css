@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&family=Playfair+Display:wght@700&display=swap");
+
+.home-container {
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+}
+
+.body-container {
+  width: 90%;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  line-height: 2;
+  font-weight: 100;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  width: 150px;
+  background: #333;
+  margin: 0 auto;
+}
+
+.image-overlay {
+  position: relative;
+  display: inline-block;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+.image-overlay img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.image-overlay::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.title {
+  font-family: "Playfair Display", serif;
+  color: #cb9847;
+  text-align: center;
+  margin-bottom: 2vw;
+}
+
+.subtitle {
+  font-family: "Playfair Display", serif;
+  color: #cb9847;
+  text-align: center;
+  margin-top: 2vw;
+  font-size: 20px;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.small-container {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+table {
+  width: 90%;
+  max-width: 450px;
+  border-collapse: collapse;
+  margin-bottom: 2vw;
+  margin: 0 auto;
+}
+
+td {
+  padding: 1vw;
+  border: none;
+}
+
+tr {
+  border-bottom: 1px solid #ccc;
+}
+
+td:first-child {
+  text-align: left;
+}
+
+td:last-child {
+  text-align: right;
+}
+
+tr:last-child {
+  border-bottom: none;
+}
+
+.container {
+  position: relative;
+  overflow: hidden;
+}
+
+.title1 {
+  font-family: "Playfair Display", serif;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 2vw;
+  font-size: 30px;
+}
+
+.bg-image {
+  width: 100%;
+  height: 250px;
+}
+
+.bg-image img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.bg-image::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  width: 80%;
+  max-width: 600px;
+  z-index: 2;
+}
+
+.subcribetitle {
+  font-family: "Playfair Display", serif;
+  font-size: 4vw;
+  font-weight: bold;
+  margin-bottom: 2vw;
+}
+
+.subcribesample {
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 2;
+}
+
+.subcribeform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subcribeform .email {
+  flex: 1;
+  padding: 10px 10px;
+  font-size: 13px;
+  border: none;
+}
+
+.subcribeform input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 10px;
+  border: none;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.subcribeform input[type="submit"]:hover {
+  background-color: #555;
+}
+
+.table1 {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2vw;
+}
+
+.image-wrapper {
+  position: relative;
+  height: 50vh;
+  overflow: hidden;
+}
+
+.image-wrapper h1 {
+  position: absolute;
+  line-height: 1px;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: "Playfair Display", serif;
+  font-size: 6vw;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2vw;
+}
+
+.content-item {
+  flex: 1;
+  width: 100%;
+  text-align: center;
+}
+
+.content-item img {
+  width: 100%;
+  height: auto;
+}
+
+.table1 p {
+  text-align: justify;
+  line-height: 1.6;
+}
+
+@media (max-width: 767px) {
+  .content {
+    width: 90%;
+  }
+}

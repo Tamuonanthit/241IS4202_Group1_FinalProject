@@ -1,0 +1,32 @@
+<div class="mat-dialog-container">
+  <h1 mat-dialog-title class="title">Thông tin chi tiết</h1>
+  <div mat-dialog-content class="details-grid">
+    <div><strong>Booking ID:</strong></div>
+    <div>{{ data._id }}</div>
+    <div><strong>Checkin Date:</strong></div>
+    <div>{{ data.check_in_date | date : "dd-MM-yyyy" }}</div>
+    <div><strong>Check out:</strong></div>
+    <div>{{ data.check_out_date | date : "dd-MM-yyyy" }}</div>
+    <div><strong>Created At:</strong></div>
+    <div>{{ data.createdAt | date : "dd-MM-yyyy" }}</div>
+    <div><strong>Booking Status:</strong></div>
+    <div>{{ data.booking_status }}</div>
+    <div><strong>Total Amount:</strong></div>
+    <div>{{ data.total_amount | currency : "VND" }}</div>
+    <div><strong>Customer:</strong></div>
+    <div>{{ data.contact_infor.full_name }}</div>
+    <div><strong>Gender:</strong></div>
+    <div>{{ data.contact_infor.gender }}</div>
+    <div><strong>Phone:</strong></div>
+    <div>{{ data.contact_infor.phone_number }}</div>
+    <div><strong>Address:</strong></div>
+    <div>{{ data.contact_infor.address }}</div>
+    <div><strong>Email:</strong></div>
+    <div>{{ data.contact_infor.email }}</div>
+    <div><strong>Special Request:</strong></div>
+    <div>{{ data.special_request }}</div>
+  </div>
+  <div mat-dialog-actions>
+    <button mat-button (click)="onNoClick()">Đóng</button>
+  </div>
+</div>

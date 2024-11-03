@@ -1,0 +1,195 @@
+<div class="home-container"></div>
+<div class="image-wrapper">
+  <h1>Hội Nghị & Sự Kiện</h1>
+  <div class="image-overlay">
+    <img src="assets/image/meeting.png" alt="" />
+  </div>
+</div>
+
+<div class="body-container">
+  <h2 class="title">TỔNG QUAN</h2>
+  <hr />
+  <figure class="image-container">
+    <img src="assets/image/mice-overview.jpg" alt="" />
+  </figure>
+  <div class="small-container">
+    <h3 class="subtitle">
+      Nơi biến những sự kiện trở nên đáng nhớ hơn bao giờ hết!
+    </h3>
+    <p>
+      Be Ho Hotel là nơi lý tưởng cho các sự kiện đặc biệt, hội nghị và các buổi
+      tiệc của bạn. Sự sang trọng và tinh tế của không gian, kết hợp với dịch vụ
+      chuyên nghiệp, đảm bảo các sự kiện của bạn sẽ diễn ra thành công. Từ các
+      buổi hội thảo, hội nghị chuyên đề, cho đến các sự kiện lớn, đội ngũ nhân
+      viên sẽ hỗ trợ mọi khâu tổ chức để tạo ra một trải nghiệm hoàn hảo.
+    </p>
+  </div>
+
+  <div class="slider">
+    <div class="slider-wrapper" [style.transform]="transformStyle">
+      <div class="slide" *ngFor="let image of images">
+        <img [src]="image" alt="Image" />
+      </div>
+    </div>
+    <button (click)="prevImage()">
+      <i class="fa fa-angle-left"></i>
+    </button>
+    <button (click)="nextImage()">
+      <i class="fa fa-angle-right"></i>
+    </button>
+  </div>
+  <div class="small-container">
+    <h3 class="subtitle">Phòng tiệc Amour</h3>
+    <p>
+      Lấy cảm hứng từ những bữa tiệc xa hoa và lộng lẫy trong những lâu đài nguy
+      nga tráng lệ từ những câu chuyện cổ tích, phòng tiệc Amour...
+    </p>
+  </div>
+  <table class="capacity-table">
+    <tr>
+      <th>
+        <img src="assets/icon/classroom.png" alt="" />
+        <span>CLASSROOM</span>
+      </th>
+      <td>300 khách</td>
+    </tr>
+    <tr>
+      <th>
+        <img src="assets/icon/theatre.png" alt="" />
+        <span>THEATRE</span>
+      </th>
+      <td>440 khách</td>
+    </tr>
+    <tr>
+      <th>
+        <img src="assets/icon/conference.png" alt="" />
+        <span>BANQUET ROUNDS</span>
+      </th>
+      <td>350 khách</td>
+    </tr>
+    <tr>
+      <th>
+        <img src="assets/icon/conference.png" alt="" /> CONFERENCE/BOARDROOM
+      </th>
+      <td>180 khách</td>
+    </tr>
+    <tr>
+      <th>
+        <img src="assets/icon/ushape.png" alt="" />
+        <span>U-SHAPE</span>
+      </th>
+      <td>180 khách</td>
+    </tr>
+    <tr>
+      <th>
+        <img src="assets/icon/hollowsquare1.png" alt="" />
+        <span>HOLLOW SQUARE</span>
+      </th>
+      <td>120 khách</td>
+    </tr>
+  </table>
+
+  <!-- Phòng Họp Section -->
+  <div class="small-container">
+    <h3 class="subtitle">3 Phòng Họp Chức Năng</h3>
+    <p>
+      De Luna Hotel sở hữu 3 phòng họp chức năng nằm tại tầng 2 của khách sạn,
+      phù hợp với đa dạng nhu cầu của khách hàng.
+    </p>
+  </div>
+
+  <div class="services">
+    <!-- Khung 1 -->
+    <div class="service-box one">
+      <img src="assets/image/mice-phunghia-1.jpg" alt="" />
+      <div class="text">
+        <h2>Amour 1</h2>
+        <p>
+          Amour 1 là phòng họp rộng rãi với sức chứa 70 chỗ ngồi và không gian
+          ấn tượng, đây là sự lựa chọn hoàn hảo cho các hội nghị nhỏ và thân
+          mật.
+        </p>
+      </div>
+    </div>
+    <!-- Khung 2 -->
+    <div class="service-box one">
+      <div class="text">
+        <h2>Amour 2</h2>
+        <p>
+          Amour 2 là phòng họp năng động với sức chứa 50 chỗ ngồi, với các tiện
+          nghi hiện đại và cơ hội tổ chức hội nghị, thuyết trình và sự kiện quy
+          mô vừa.
+        </p>
+      </div>
+      <img src="assets/image/mice-thachban-1.jpg" alt="" />
+    </div>
+    <!-- Khung 3 -->
+    <div class="service-box one">
+      <img src="assets/image/mice-thienthi-1.jpg" alt="" />
+      <div class="text">
+        <h2>Amour 3</h2>
+        <p>
+          Amour 3 là phòng riêng tư với sức chứa 24 chỗ ngồi rất thích hợp cho
+          các buổi họp riêng tư.
+        </p>
+      </div>
+    </div>
+    <!-- Khung 4 -->
+    <div class="service-box one">
+      <div class="text">
+        <h2>Khu Tea Break</h2>
+        <p>
+          Khám phá sự thoải mái và sự riêng tư tối đa tại khu tea break của Dé
+          Luna Hotel. Với thiết kế gồm 2 không gian riêng biệt, phục vụ mọi nhu
+          cầu của bạn trong các cuộc họp và hội thảo, khu tea break là nơi lý
+          tưởng để thư giãn và tạo mối kết nối trong không gian yên tĩnh và tiện
+          nghi.
+        </p>
+      </div>
+      <img src="assets/image/teabreak-1.png" alt="" />
+    </div>
+  </div>
+
+  <div class="small-container">
+    <h3 class="subtitle">Eden Garden</h3>
+    <p>
+      Eden Garden – Nơi hòa quyện giữa sự sang trọng của khách sạn và thiên
+      nhiên hùng vĩ. Giống như chính tên gọi, Eden Garden là khu vườn xanh mát
+      nằm giữa cảnh quan bằng ngọc của Tam Đảo.
+    </p>
+    <p>
+      Với thiết kế tinh tế và dịch vụ đẳng cấp, Eden Garden là địa điểm hoàn hảo
+      cho tiệc cưới, hội nghị ngoài trời, và các buổi tiệc thân mật. Hãy để
+      chúng tôi tạo nên sự kiện đáng nhớ và không thể nào quên tại Eden Garden.
+    </p>
+  </div>
+</div>
+<div class="eden-gallery">
+  <img
+    src="assets/image/tiệc ngoài trời ban đêm 1.png"
+    style="height: 272px; width: 340"
+    alt=""
+  />
+  <img
+    src="assets/image/tiệc ngoài trời 1.png"
+    style="height: 272px; width: 340"
+    alt=""
+  />
+  <img src="assets/image/anh-3.jpg" style="height: 272px; width: 340" alt="" />
+</div>
+<br />
+<div class="container">
+  <div class="bg-image">
+    <img src="assets/image/Picturemicebackground.png" alt="" />
+  </div>
+  <div class="content">
+    <h1 class="title1">Tư vấn tổ chức hội nghị, sự kiện</h1>
+    <div class="subcribesample">
+      <p>Vui lòng liên hệ bộ phận Lễ tân hoặc hotline: 0906 832 088</p>
+    </div>
+    <form method="post" action="" class="subcribeform">
+      <input type="email" name="email" class="email" placeholder="YOUR EMAIL" />
+      <input name="sendemail" type="submit" value="SEND ME" />
+    </form>
+  </div>
+</div>

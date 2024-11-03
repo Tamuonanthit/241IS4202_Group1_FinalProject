@@ -1,0 +1,93 @@
+/* Basic styling for the login wrapper */
+.login-wrapper {
+  height: 100%;
+  background: rgba(197, 168, 128, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Styling for the login container */
+.login-container {
+  background: #fff;
+  box-shadow: 0px 1px 6px 2px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+/* Styling for the login content */
+.login-content {
+  padding: 5vw 10vw;
+  width: 100%;
+}
+
+/* Styling for the form elements */
+.form-title {
+  font-size: 2rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 1.5vw;
+}
+
+.form-group label {
+  display: flex;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 0.5vw;
+}
+
+.form-group input {
+  width: 96%;
+  padding: 0.75vw;
+  border: 1px solid #ced0d4;
+  border-radius: 0.4vw;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+}
+
+/* Login button styling */
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background: #c5a880;
+  color: #fff;
+  border: none;
+  border-radius: 0.4vw;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background: #b2946e;
+}
+
+/* Styling for terms and conditions */
+.terms {
+  margin-top: 1.5vw;
+  text-align: center;
+  font-size: 10px;
+  font-family: "Inter", sans-serif;
+  color: #2a2a2e;
+}
+
+.terms-link {
+  color: #5392f9;
+  text-decoration: none;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 767px) {
+  .login-content {
+    padding: 10vw;
+  }
+}

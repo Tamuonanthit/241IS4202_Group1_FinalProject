@@ -1,0 +1,72 @@
+<h1 class="title">Đơn đặt phòng</h1>
+<div class="mat-elevation-z8">
+  <table mat-table [dataSource]="dataSource" matSort>
+    <ng-container matColumnDef="_id">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Mã phòng</th>
+      <td mat-cell *matCellDef="let element">{{ element._id }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="createdAt">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Ngày tạo</th>
+      <td mat-cell *matCellDef="let element">
+        {{ element.createdAt | date : "dd-MM-yyyy" }}
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="check_in_date">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Ngày checkin</th>
+      <td mat-cell *matCellDef="let element">
+        {{ element.check_in_date | date : "dd-MM-yyyy" }}
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="check_out_date">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Ngày checkout</th>
+      <td mat-cell *matCellDef="let element">
+        {{ element.check_out_date | date : "dd-MM-yyyy" }}
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="booking_status">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Trạng thái</th>
+      <td mat-cell *matCellDef="let element">{{ element.booking_status }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="total_amount">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Tổng tiền</th>
+      <td mat-cell *matCellDef="let element">{{ element.total_amount }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="actions">
+      <th mat-header-cell *matHeaderCellDef></th>
+      <td mat-cell *matCellDef="let element">
+        <button mat-raised-button (click)="openEditDialog(element, $event)">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M17.1252 19.1948H4.87845C4.64644 19.1948 4.42394 19.2899 4.25989 19.4592C4.09584 19.6284 4.00368 19.858 4.00368 20.0974C4.00368 20.3368 4.09584 20.5664 4.25989 20.7356C4.42394 20.9049 4.64644 21 4.87845 21H17.1252C17.3572 21 17.5797 20.9049 17.7438 20.7356C17.9078 20.5664 18 20.3368 18 20.0974C18 19.858 17.9078 19.6284 17.7438 19.4592C17.5797 19.2899 17.3572 19.1948 17.1252 19.1948ZM4.87845 17.3896H4.95718L8.60497 17.0466C9.00456 17.0055 9.37829 16.8238 9.66344 16.5321L17.5364 8.40864C17.8419 8.07554 18.0071 7.63105 17.9956 7.17255C17.9841 6.71405 17.797 6.27894 17.4751 5.96257L15.0783 3.48943C14.7654 3.18624 14.3555 3.01228 13.9265 3.00063C13.4974 2.98898 13.0792 3.14045 12.7514 3.42625L4.87845 11.5497C4.59569 11.8439 4.41963 12.2296 4.37983 12.6419L4.00368 16.4057C3.99189 16.5379 4.00852 16.6712 4.05237 16.796C4.09622 16.9208 4.16621 17.0341 4.25736 17.1278C4.3391 17.2115 4.43604 17.2777 4.54262 17.3226C4.6492 17.3675 4.76332 17.3903 4.87845 17.3896ZM13.8623 4.75308L16.2505 7.2172L14.5009 8.97728L12.1565 6.55829L13.8623 4.75308ZM6.07688 12.7953L11.0018 7.74973L13.3637 10.1868L8.465 15.2414L5.84069 15.4941L6.07688 12.7953Z"
+              fill="black"
+            />
+          </svg>
+        </button>
+      </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr
+      mat-row
+      *matRowDef="let row; columns: displayedColumns"
+      (click)="openDetailDialog(row)"
+    ></tr>
+  </table>
+
+  <mat-paginator
+    [pageSizeOptions]="[5, 10, 20]"
+    showFirstLastButtons
+  ></mat-paginator>
+</div>

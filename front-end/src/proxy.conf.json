@@ -1,0 +1,12 @@
+
+  
+[
+  
+  {
+  "context": ["/api", "/api/auth/register", "/api/auth/login", "/api/get-room", "/api/get-res"],
+  "target": "http://localhost:3000",
+  "secure": true,
+  "changeOrigin":true,
+  "logLevel":"debug"
+  }
+  ]

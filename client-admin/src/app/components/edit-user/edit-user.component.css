@@ -1,0 +1,33 @@
+/* Center the dialog content */
+.mat-dialog-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+/* Style the form fields */
+mat-form-field {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+/* Style the dialog actions */
+.mat-dialog-actions {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+/* Style the buttons */
+button {
+  margin-left: 8px;
+}
+
+/* Add some padding to the dialog content */
+.mat-dialog-content {
+  width: 100%;
+  padding: 0 24px;
+}

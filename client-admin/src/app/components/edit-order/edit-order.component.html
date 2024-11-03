@@ -1,0 +1,50 @@
+<div class="mat-dialog-container">
+  <h1 mat-dialog-title>Sửa thông tin</h1>
+  <div mat-dialog-content>
+    <mat-form-field>
+      <mat-label>Ngày checkin</mat-label>
+      <input
+        matInput
+        [matDatepicker]="checkinPicker"
+        [(ngModel)]="data.check_in_date"
+      />
+      <mat-datepicker-toggle
+        matSuffix
+        [for]="checkinPicker"
+      ></mat-datepicker-toggle>
+      <mat-datepicker #checkinPicker></mat-datepicker>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Ngày checkout</mat-label>
+      <input
+        matInput
+        [matDatepicker]="checkoutPicker"
+        [(ngModel)]="data.check_out_date"
+      />
+      <mat-datepicker-toggle
+        matSuffix
+        [for]="checkoutPicker"
+      ></mat-datepicker-toggle>
+      <mat-datepicker #checkoutPicker></mat-datepicker>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Trạng thái</mat-label>
+      <mat-select [(ngModel)]="data.booking_status">
+        <mat-option value="pending">Pending</mat-option>
+        <mat-option value="canceled">Canceled</mat-option>
+        <mat-option value="paid">Paid</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Giá</mat-label>
+      <input matInput [(ngModel)]="data.total_amount" />
+    </mat-form-field>
+  </div>
+  <div mat-dialog-actions>
+    <button mat-button (click)="onNoClick()">Hủy</button>
+    <button mat-button (click)="save()">Lưu</button>
+  </div>
+</div>

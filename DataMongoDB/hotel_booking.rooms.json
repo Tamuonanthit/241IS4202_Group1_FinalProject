@@ -1,0 +1,1723 @@
+[{
+  "_id": {
+    "$oid": "672264e941e9afb5d84056de"
+  },
+  "room_number": "DH2",
+  "room_name": "Deluxe Hollywood",
+  "room_price": 3240000,
+  "room_type": "Phòng Deluxe",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "01 giường lớn",
+      "occupancy": "2 người lớn và 1 trẻ em dưới 6 tuổi",
+      "size": "37 m2",
+      "bathroom": "Bồn tắm cao cấp",
+      "view": "Hướng thị trấn",
+      "_id": {
+        "$oid": "672264e941e9afb5d84056df"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/d1-1730307305256.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-10-30T16:55:05.271Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-30T16:55:05.271Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6722652441e9afb5d84056e2"
+  },
+  "room_number": "DT1",
+  "room_name": "Deluxe Twins",
+  "room_price": 3140000,
+  "room_type": "Phòng Deluxe",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "01 giường lớn",
+      "occupancy": "2 người lớn và 1 trẻ em dưới 6 tuổi",
+      "size": "37 m2",
+      "bathroom": "Bồn tắm cao cấp",
+      "view": "Hướng thị trấn",
+      "_id": {
+        "$oid": "6722652441e9afb5d84056e3"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/d1-1730307364696.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-10-30T16:56:04.713Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-30T16:56:04.713Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6722653241e9afb5d84056e6"
+  },
+  "room_number": "DT2",
+  "room_name": "Deluxe Twins",
+  "room_price": 3140000,
+  "room_type": "Phòng Deluxe",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "02 giường đơn",
+      "occupancy": "2 người lớn và 1 trẻ em dưới 6 tuổi",
+      "size": "37 m2",
+      "bathroom": "Bồn tắm cao cấp",
+      "view": "Hướng thị trấn",
+      "_id": {
+        "$oid": "6722653241e9afb5d84056e7"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/d1-1730307378190.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-10-30T16:56:18.205Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-30T16:56:18.205Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6722655641e9afb5d84056ea"
+  },
+  "room_number": "DK1",
+  "room_name": "Deluxe King",
+  "room_price": 3140000,
+  "room_type": "Phòng Deluxe",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "01 giường lớn",
+      "occupancy": "2 người lớn và 1 trẻ em dưới 6 tuổi",
+      "size": "37 m2",
+      "bathroom": "Bồn tắm cao cấp",
+      "view": "Hướng thị trấn",
+      "_id": {
+        "$oid": "6722655641e9afb5d84056eb"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/d1-1730307414349.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-10-30T16:56:54.359Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-30T16:56:54.359Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6722656041e9afb5d84056ee"
+  },
+  "room_number": "DK2",
+  "room_name": "Deluxe King",
+  "room_price": 3140000,
+  "room_type": "Phòng Deluxe",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "01 giường lớn",
+      "occupancy": "2 người lớn và 1 trẻ em dưới 6 tuổi",
+      "size": "37 m2",
+      "bathroom": "Bồn tắm cao cấp",
+      "view": "Hướng thị trấn",
+      "_id": {
+        "$oid": "6722656041e9afb5d84056ef"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/d1-1730307424396.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-10-30T16:57:04.406Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-30T16:57:04.406Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6722658841e9afb5d84056f2"
+  },
+  "room_number": "EK1",
+  "room_name": "Executive King",
+  "room_price": 3740000,
+  "room_type": "Phòng Executive",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "01 giường lớn",
+      "occupancy": "2 người lớn và 1 trẻ em dưới 6 tuổi",
+      "size": "37 m2",
+      "bathroom": "Bồn tắm cao cấp",
+      "view": "Hướng công viên trung tâm",
+      "unique_feature": "Ban công riêng",
+      "_id": {
+        "$oid": "6722658841e9afb5d84056f3"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/d1-1730307464638.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-10-30T16:57:44.647Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-30T16:57:44.647Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "672267af41e9afb5d84056f6"
+  },
+  "room_number": "EK2",
+  "room_name": "Executive King",
+  "room_price": 3740000,
+  "room_type": "Phòng Executive",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "01 giường lớn",
+      "occupancy": "2 người lớn và 1 trẻ em dưới 6 tuổi",
+      "size": "37 m2",
+      "bathroom": "Bồn tắm cao cấp",
+      "view": "Hướng công viên trung tâm",
+      "unique_feature": "Ban công riêng",
+      "_id": {
+        "$oid": "672267af41e9afb5d84056f7"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/d4-1730308015768.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-10-30T17:06:55.773Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-30T17:06:55.773Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "672267d341e9afb5d84056fa"
+  },
+  "room_number": "ET1",
+  "room_name": "Executive Twins",
+  "room_price": 3740000,
+  "room_type": "Phòng Executive",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "2 giường đơn",
+      "occupancy": "2 người lớn và 1 trẻ em dưới 6 tuổi",
+      "size": "37 m2",
+      "bathroom": "Bồn tắm cao cấp",
+      "view": "Hướng công viên trung tâm",
+      "unique_feature": "Ban công riêng",
+      "_id": {
+        "$oid": "672267d341e9afb5d84056fb"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/d4-1730308051846.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-10-30T17:07:31.849Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-30T17:07:31.849Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "672267e141e9afb5d84056fe"
+  },
+  "room_number": "ET2",
+  "room_name": "Executive Twins",
+  "room_price": 3740000,
+  "room_type": "Phòng Executive",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "2 giường đơn",
+      "occupancy": "2 người lớn và 1 trẻ em dưới 6 tuổi",
+      "size": "37 m2",
+      "bathroom": "Bồn tắm cao cấp",
+      "view": "Hướng công viên trung tâm",
+      "unique_feature": "Ban công riêng",
+      "_id": {
+        "$oid": "672267e141e9afb5d84056ff"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/d4-1730308065003.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-10-30T17:07:45.008Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-30T17:07:45.008Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6722680541e9afb5d8405702"
+  },
+  "room_number": "EH1",
+  "room_name": "Executive Hollywoods",
+  "room_price": 3840000,
+  "room_type": "Phòng Executive",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "01 giường",
+      "occupancy": "2 người lớn và 1 trẻ em dưới 6 tuổi",
+      "size": "37 m2",
+      "bathroom": "Bồn tắm cao cấp",
+      "view": "Hướng công viên trung tâm",
+      "unique_feature": "Ban công riêng",
+      "_id": {
+        "$oid": "6722680541e9afb5d8405703"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/d4-1730308101036.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-10-30T17:08:21.038Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-30T17:08:21.038Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6722681341e9afb5d8405706"
+  },
+  "room_number": "EH2",
+  "room_name": "Executive Hollywoods",
+  "room_price": 3840000,
+  "room_type": "Phòng Executive",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "01 giường lớn",
+      "occupancy": "2 người lớn và 1 trẻ em dưới 6 tuổi",
+      "size": "37 m2",
+      "bathroom": "Bồn tắm cao cấp",
+      "view": "Hướng công viên trung tâm",
+      "unique_feature": "Ban công riêng",
+      "_id": {
+        "$oid": "6722681341e9afb5d8405707"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/d4-1730308115106.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-10-30T17:08:35.111Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-30T17:08:35.111Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6722684641e9afb5d840570a"
+  },
+  "room_number": "DSDK1",
+  "room_name": "Deluxe King",
+  "room_price": 3740000,
+  "room_type": "Phòng Deluxe Suite",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "01 giường Super king",
+      "occupancy": "3 người lớn hoặc 2 người lớn + 1 trẻ em",
+      "size": "65 m2",
+      "bathroom": "Bồn tắm cao cấp",
+      "view": "Hướng công viên trung tâm",
+      "unique_feature": "Ban công riêng",
+      "_id": {
+        "$oid": "6722684641e9afb5d840570b"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/d3-1730308166091.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-10-30T17:09:26.095Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-30T17:09:26.095Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6722685a41e9afb5d840570e"
+  },
+  "room_number": "DSDK2",
+  "room_name": "Deluxe King",
+  "room_price": 3740000,
+  "room_type": "Phòng Deluxe Suite",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "01 giường Super king",
+      "occupancy": "3 người lớn hoặc 2 người lớn + 1 trẻ em",
+      "size": "65 m2",
+      "bathroom": "Bồn tắm cao cấp",
+      "view": "Hướng công viên trung tâm",
+      "unique_feature": "Ban công riêng",
+      "_id": {
+        "$oid": "6722685a41e9afb5d840570f"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/d3-1730308186883.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-10-30T17:09:46.885Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-30T17:09:46.885Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6722686b41e9afb5d8405712"
+  },
+  "room_number": "DSDK3",
+  "room_name": "Deluxe King",
+  "room_price": 3740000,
+  "room_type": "Phòng Deluxe Suite",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "01 giường Super king",
+      "occupancy": "3 người lớn hoặc 2 người lớn + 1 trẻ em",
+      "size": "65 m2",
+      "bathroom": "Bồn tắm cao cấp",
+      "view": "Hướng công viên trung tâm",
+      "unique_feature": "Ban công riêng",
+      "_id": {
+        "$oid": "6722686b41e9afb5d8405713"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/d4-1730308203158.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-10-30T17:10:03.164Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-30T17:10:03.164Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6722687441e9afb5d8405716"
+  },
+  "room_number": "DSDK4",
+  "room_name": "Deluxe King",
+  "room_price": 3740000,
+  "room_type": "Phòng Deluxe Suite",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "01 giường Super king",
+      "occupancy": "3 người lớn hoặc 2 người lớn + 1 trẻ em",
+      "size": "65 m2",
+      "bathroom": "Bồn tắm cao cấp",
+      "view": "Hướng thị trấn",
+      "unique_feature": "Ban công riêng",
+      "_id": {
+        "$oid": "6722687441e9afb5d8405717"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/d4-1730308212143.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-10-30T17:10:12.145Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-30T17:10:12.145Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6722687b41e9afb5d840571a"
+  },
+  "room_number": "DSDK5",
+  "room_name": "Deluxe King",
+  "room_price": 3740000,
+  "room_type": "Phòng Deluxe Suite",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "01 giường Super king",
+      "occupancy": "3 người lớn hoặc 2 người lớn + 1 trẻ em",
+      "size": "65 m2",
+      "bathroom": "Bồn tắm cao cấp",
+      "view": "Hướng thị trấn",
+      "unique_feature": "Ban công riêng",
+      "_id": {
+        "$oid": "6722687b41e9afb5d840571b"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/d4-1730308219429.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-10-30T17:10:19.432Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-30T17:10:19.432Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6722688d41e9afb5d840571e"
+  },
+  "room_number": "DSDK6",
+  "room_name": "Deluxe King",
+  "room_price": 5940000,
+  "room_type": "Phòng Deluxe Suite",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "01 giường Super king",
+      "occupancy": "3 người lớn hoặc 2 người lớn + 1 trẻ em",
+      "size": "65 m2",
+      "bathroom": "Bồn tắm cao cấp",
+      "view": "Hướng thị trấn",
+      "unique_feature": "Ban công riêng",
+      "_id": {
+        "$oid": "6722688d41e9afb5d840571f"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/d4-1730308237617.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-10-30T17:10:37.619Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-30T17:10:37.619Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "672268c841e9afb5d8405722"
+  },
+  "room_number": "ESDK1",
+  "room_name": "Deluxe King",
+  "room_price": 5940000,
+  "room_type": "Phòng Executive Suite",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "01 giường Super king",
+      "occupancy": "3 người lớn hoặc 2 người lớn + 1 trẻ em",
+      "size": "109 m2",
+      "bathroom": "Bồn tắm cao cấp",
+      "view": "Hướng công viên trung tâm hoặc thị trấn",
+      "unique_feature": "Ban công riêng, phòng tắm cao cấp",
+      "_id": {
+        "$oid": "672268c841e9afb5d8405723"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/d4-1730308296724.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-10-30T17:11:36.729Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-30T17:11:36.729Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "672268e841e9afb5d8405726"
+  },
+  "room_number": "ESDK2",
+  "room_name": "Deluxe King",
+  "room_price": 5940000,
+  "room_type": "Phòng Executive Suite",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "01 giường Super king",
+      "occupancy": "3 người lớn hoặc 2 người lớn + 1 trẻ em",
+      "size": "109 m2",
+      "bathroom": "Bồn tắm cao cấp",
+      "view": "Hướng công viên trung tâm",
+      "unique_feature": "Ban công riêng, phòng tắm cao cấp",
+      "_id": {
+        "$oid": "672268e841e9afb5d8405727"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/d2-1730308328612.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-10-30T17:12:08.615Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-30T17:12:08.615Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "672268f341e9afb5d840572a"
+  },
+  "room_number": "ESDK3",
+  "room_name": "Deluxe King",
+  "room_price": 5940000,
+  "room_type": "Phòng Executive Suite",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "01 giường Super king",
+      "occupancy": "3 người lớn hoặc 2 người lớn + 1 trẻ em",
+      "size": "109 m2",
+      "bathroom": "Bồn tắm cao cấp",
+      "view": "Hướng công viên trung tâm",
+      "unique_feature": "Ban công riêng, phòng tắm cao cấp",
+      "_id": {
+        "$oid": "672268f341e9afb5d840572b"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/d2-1730308339653.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-10-30T17:12:19.658Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-30T17:12:19.658Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6722690041e9afb5d840572e"
+  },
+  "room_number": "ESDK4",
+  "room_name": "Deluxe King",
+  "room_price": 7940000,
+  "room_type": "Phòng Executive Suite",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "01 giường Super king",
+      "occupancy": "3 người lớn hoặc 2 người lớn + 1 trẻ em",
+      "size": "109 m2",
+      "bathroom": "Bồn tắm cao cấp",
+      "view": "Hướng thị trấn",
+      "unique_feature": "Ban công riêng, phòng tắm cao cấp",
+      "_id": {
+        "$oid": "6722690041e9afb5d840572f"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/d2-1730308352725.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-10-30T17:12:32.728Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-30T17:12:32.728Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6722690e41e9afb5d8405732"
+  },
+  "room_number": "ESDK5",
+  "room_name": "Deluxe King",
+  "room_price": 7940000,
+  "room_type": "Phòng Executive Suite",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "01 giường Super king",
+      "occupancy": "3 người lớn hoặc 2 người lớn + 1 trẻ em",
+      "size": "109 m2",
+      "bathroom": "Bồn tắm cao cấp",
+      "view": "Hướng thị trấn",
+      "unique_feature": "Hướng công viên trung tâm hoặc thị trấn",
+      "_id": {
+        "$oid": "6722690e41e9afb5d8405733"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/d2-1730308366191.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-10-30T17:12:46.195Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-30T17:12:46.195Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6722691541e9afb5d8405736"
+  },
+  "room_number": "ESDK6",
+  "room_name": "Deluxe King",
+  "room_price": 7940000,
+  "room_type": "Phòng Executive Suite",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "01 giường Super king",
+      "occupancy": "3 người lớn hoặc 2 người lớn + 1 trẻ em",
+      "size": "109 m2",
+      "bathroom": "Bồn tắm cao cấp",
+      "view": "Hướng thị trấn",
+      "unique_feature": "Ban công riêng, phòng tắm cao cấp",
+      "_id": {
+        "$oid": "6722691541e9afb5d8405737"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/d2-1730308373112.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-10-30T17:12:53.118Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-30T17:12:53.118Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6722693541e9afb5d840573a"
+  },
+  "room_number": "PK1",
+  "room_name": "Premier King",
+  "room_price": 3440000,
+  "room_type": "Phòng Premier",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "01 giường lớn",
+      "occupancy": "2 người lớn và 1 trẻ em dưới 6 tuổi",
+      "size": "37 m2",
+      "bathroom": "Bồn tắm cao cấp",
+      "view": "Hướng thị trấn",
+      "unique_feature": "Ban công riêng",
+      "_id": {
+        "$oid": "6722693541e9afb5d840573b"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/d2-1730308405207.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-10-30T17:13:25.211Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-30T17:13:25.211Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6722697c41e9afb5d840573e"
+  },
+  "room_number": "PT1",
+  "room_name": "Premier Twins",
+  "room_price": 3440000,
+  "room_type": "Phòng Premier",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "2 giường đơn",
+      "occupancy": "2 người lớn và 1 trẻ em dưới 6 tuổi",
+      "size": "37 m2",
+      "bathroom": "Bồn tắm cao cấp",
+      "view": "Hướng thị trấn",
+      "unique_feature": "Ban công riêng",
+      "_id": {
+        "$oid": "6722697c41e9afb5d840573f"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/d3-1730308476639.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-10-30T17:14:36.641Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-30T17:14:36.641Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6722699141e9afb5d8405742"
+  },
+  "room_number": "PH1",
+  "room_name": "Premier Hollywood",
+  "room_price": 3540000,
+  "room_type": "Phòng Premier",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "01 giường lớn",
+      "occupancy": "2 người lớn và 1 trẻ em dưới 6 tuổi",
+      "size": "37 m2",
+      "bathroom": "Bồn tắm cao cấp",
+      "view": "Hướng thị trấn",
+      "unique_feature": "Ban công riêng",
+      "_id": {
+        "$oid": "6722699141e9afb5d8405743"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/d3-1730308497663.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-10-30T17:14:57.666Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-30T17:14:57.666Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "672269af41e9afb5d8405746"
+  },
+  "room_number": "PH2",
+  "room_name": "Premier Hollywood",
+  "room_price": 3540000,
+  "room_type": "Phòng Premier",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "01 giường lớn",
+      "occupancy": "2 người lớn và 1 trẻ em dưới 6 tuổi",
+      "size": "37 m2",
+      "bathroom": "Bồn tắm cao cấp",
+      "view": "Hướng thị trấn",
+      "unique_feature": "Ban công riêng",
+      "_id": {
+        "$oid": "672269af41e9afb5d8405747"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/d4-1730308527917.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-10-30T17:15:27.923Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-30T17:15:27.923Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "672269d341e9afb5d840574a"
+  },
+  "room_number": "F1",
+  "room_name": "Family",
+  "room_price": 5740000,
+  "room_type": "Phòng Family",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "01 giường lớn và 01 giường tầng",
+      "occupancy": "2 người lớn và 1 trẻ em dưới 6 tuổi",
+      "size": "60 m2",
+      "bathroom": "Bồn tắm cao cấp",
+      "view": "Hướng công viên trung tâm",
+      "unique_feature": "Ban công riêng",
+      "_id": {
+        "$oid": "672269d341e9afb5d840574b"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/d4-1730308563099.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-10-30T17:16:03.101Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-30T17:16:03.101Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "672269da41e9afb5d840574e"
+  },
+  "room_number": "F2",
+  "room_name": "Family",
+  "room_price": 5740000,
+  "room_type": "Phòng Family",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "01 giường lớn và 01 giường tầng",
+      "occupancy": "2 người lớn và 1 trẻ em dưới 6 tuổi",
+      "size": "60 m2",
+      "bathroom": "Bồn tắm cao cấp",
+      "view": "Hướng công viên trung tâm",
+      "unique_feature": "Ban công riêng",
+      "_id": {
+        "$oid": "672269da41e9afb5d840574f"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/d4-1730308570840.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-10-30T17:16:10.842Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-30T17:16:10.842Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "672269e141e9afb5d8405752"
+  },
+  "room_number": "F3",
+  "room_name": "Family",
+  "room_price": 5740000,
+  "room_type": "Phòng Family",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "01 giường lớn và 01 giường tầng",
+      "occupancy": "2 người lớn và 1 trẻ em dưới 6 tuổi",
+      "size": "60 m2",
+      "bathroom": "Bồn tắm cao cấp",
+      "view": "Hướng công viên trung tâm",
+      "unique_feature": "Ban công riêng",
+      "_id": {
+        "$oid": "672269e141e9afb5d8405753"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/d4-1730308577161.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-10-30T17:16:17.163Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-30T17:16:17.163Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "672269f741e9afb5d840575a"
+  },
+  "room_number": "F4",
+  "room_name": "Family",
+  "room_price": 5740000,
+  "room_type": "Phòng Family",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "01 giường lớn và 01 giường tầng",
+      "occupancy": "2 người lớn và 1 trẻ em dưới 6 tuổi",
+      "size": "60 m2",
+      "bathroom": "Bồn tắm cao cấp",
+      "view": "Hướng thị trấn",
+      "unique_feature": "Ban công riêng",
+      "_id": {
+        "$oid": "672269f741e9afb5d840575b"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/d4-1730308599934.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-10-30T17:16:39.936Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-30T17:16:39.936Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "672269fc41e9afb5d840575e"
+  },
+  "room_number": "F5",
+  "room_name": "Family",
+  "room_price": 5740000,
+  "room_type": "Phòng Family",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "01 giường lớn và 01 giường tầng",
+      "occupancy": "2 người lớn và 1 trẻ em dưới 6 tuổi",
+      "size": "60 m2",
+      "bathroom": "Bồn tắm cao cấp",
+      "view": "Hướng thị trấn",
+      "unique_feature": "Ban công riêng",
+      "_id": {
+        "$oid": "672269fc41e9afb5d840575f"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/d4-1730308604619.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-10-30T17:16:44.621Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-30T17:16:44.621Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67226a0141e9afb5d8405762"
+  },
+  "room_number": "F6",
+  "room_name": "Family",
+  "room_price": 5740000,
+  "room_type": "Phòng Family",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "01 giường lớn và 01 giường tầng",
+      "occupancy": "2 người lớn và 1 trẻ em dưới 6 tuổi",
+      "size": "60 m2",
+      "bathroom": "Bồn tắm cao cấp",
+      "view": "Hướng công thị trấn",
+      "unique_feature": "Ban công riêng",
+      "_id": {
+        "$oid": "67226a0141e9afb5d8405763"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/d4-1730308609588.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-10-30T17:16:49.591Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-30T17:16:49.591Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67226a4f41e9afb5d8405766"
+  },
+  "room_number": "P1",
+  "room_name": "Premier",
+  "room_price": 7640000,
+  "room_type": "Phòng Premier Suite",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "01 giường Super king",
+      "occupancy": "3 người lớn hoặc 2 người lớn + 1 trẻ em",
+      "size": "78 m2",
+      "bathroom": "Bồn tắm cao cấp",
+      "view": "Hướng công viên trung tâm",
+      "unique_feature": "Ban công riêng",
+      "_id": {
+        "$oid": "67226a4f41e9afb5d8405767"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/deluxesuite-1730308687365.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-10-30T17:18:07.367Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-30T17:18:07.367Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67226a5a41e9afb5d840576a"
+  },
+  "room_number": "P3",
+  "room_name": "Premier",
+  "room_price": 7640000,
+  "room_type": "Phòng Premier Suite",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "01 giường Super king",
+      "occupancy": "3 người lớn hoặc 2 người lớn + 1 trẻ em",
+      "size": "78 m2",
+      "bathroom": "Bồn tắm cao cấp",
+      "view": "Hướng công viên trung tâm",
+      "unique_feature": "Ban công riêng",
+      "_id": {
+        "$oid": "67226a5a41e9afb5d840576b"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/deluxesuite-1730308698020.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-10-30T17:18:18.022Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-30T17:18:18.022Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67226a6141e9afb5d840576e"
+  },
+  "room_number": "P4",
+  "room_name": "Premier",
+  "room_price": 7640000,
+  "room_type": "Phòng Premier Suite",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "01 giường Super king",
+      "occupancy": "3 người lớn hoặc 2 người lớn + 1 trẻ em",
+      "size": "78 m2",
+      "bathroom": "Bồn tắm cao cấp",
+      "view": "Hướng công viên trung tâm",
+      "unique_feature": "Ban công riêng",
+      "_id": {
+        "$oid": "67226a6141e9afb5d840576f"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/deluxesuite-1730308705166.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-10-30T17:18:25.168Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-30T17:18:25.168Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67226a6941e9afb5d8405772"
+  },
+  "room_number": "P5",
+  "room_name": "Premier",
+  "room_price": 7640000,
+  "room_type": "Phòng Premier Suite",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "01 giường Super king",
+      "occupancy": "3 người lớn hoặc 2 người lớn + 1 trẻ em",
+      "size": "78 m2",
+      "bathroom": "Bồn tắm cao cấp",
+      "view": "Hướng thị trấn",
+      "unique_feature": "Ban công riêng",
+      "_id": {
+        "$oid": "67226a6941e9afb5d8405773"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/deluxesuite-1730308713783.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-10-30T17:18:33.786Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-30T17:18:33.786Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67226a6f41e9afb5d8405776"
+  },
+  "room_number": "P6",
+  "room_name": "Premier",
+  "room_price": 7640000,
+  "room_type": "Phòng Premier Suite",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "01 giường Super king",
+      "occupancy": "3 người lớn hoặc 2 người lớn + 1 trẻ em",
+      "size": "78 m2",
+      "bathroom": "Bồn tắm cao cấp",
+      "view": "Hướng thị trấn",
+      "unique_feature": "Ban công riêng",
+      "_id": {
+        "$oid": "67226a6f41e9afb5d8405777"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/deluxesuite-1730308719920.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-10-30T17:18:39.924Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-30T17:18:39.924Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67265152d3ce73581113c929"
+  },
+  "room_number": "DH1",
+  "room_name": "Deluxe Hollywood",
+  "room_price": 3240000,
+  "room_type": "Phòng Deluxe",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "1 giường lớn",
+      "occupancy": "3 người lớn hoặc 2 người lớn + 1 trẻ em",
+      "size": "37 m2",
+      "bathroom": "Bồn tắm cao cấp",
+      "view": "Hướng công viên trung tâm hoặc thị trấn",
+      "unique_feature": "Ban công riêng",
+      "_id": {
+        "$oid": "67265152d3ce73581113c92a"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/deluxe-hollywood-1730564434667.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-11-02T16:20:34.683Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-02T16:20:34.683Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "672651e9d3ce73581113c92d"
+  },
+  "room_number": "PK2",
+  "room_name": "Premier King",
+  "room_price": 3440000,
+  "room_type": "Phòng Premier",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "1 giường lớn",
+      "occupancy": "3 người lớn hoặc 2 người lớn + 1 trẻ em",
+      "size": "37 m2",
+      "bathroom": "Bồn tắm cao cấp",
+      "view": "Hướng công viên trung tâm hoặc thị trấn",
+      "unique_feature": "Ban công riêng",
+      "_id": {
+        "$oid": "672651e9d3ce73581113c92e"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/premier-twins-2-1730564585308.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-11-02T16:23:05.313Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-02T16:23:05.313Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67265206d3ce73581113c931"
+  },
+  "room_number": "PT2",
+  "room_name": "Premier Twins",
+  "room_price": 3440000,
+  "room_type": "Phòng Premier",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "1 giường lớn",
+      "occupancy": "3 người lớn hoặc 2 người lớn + 1 trẻ em",
+      "size": "37 m2",
+      "bathroom": "Bồn tắm cao cấp",
+      "view": "Hướng công viên trung tâm hoặc thị trấn",
+      "unique_feature": "Ban công riêng",
+      "_id": {
+        "$oid": "67265206d3ce73581113c932"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/premier-twins-2-1730564614483.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-11-02T16:23:34.487Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-02T16:23:34.487Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "672652a1d3ce73581113c935"
+  },
+  "room_number": "P1",
+  "room_name": "Premier",
+  "room_price": 7640000,
+  "room_type": "Phòng Premier Suite",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "01 giường Super king",
+      "occupancy": "3 người lớn hoặc 2 người lớn + 1 trẻ em",
+      "size": "78 m2",
+      "bathroom": "Bồn tắm cao cấp",
+      "view": "Hướng thị trấn",
+      "unique_feature": "Ban công riêng",
+      "_id": {
+        "$oid": "672652a1d3ce73581113c936"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/premier-suite-1-1730564769333.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-11-02T16:26:09.337Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-02T16:26:09.337Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6726536bd3ce73581113c939"
+  },
+  "room_number": "A1",
+  "room_name": "Amour",
+  "room_price": 31500000,
+  "room_type": "Phòng Amour Suite",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "01 phòng ngủ: 1 giường lớn",
+      "occupancy": "3 người lớn hoặc 2 người lớn + 1 trẻ em",
+      "size": "105 m2",
+      "bathroom": "Phòng tắm với bồn tắm sang trọng",
+      "view": "Tầm nhìn ra trung tâm công viên",
+      "unique_feature": "Sân vườn riêng trên cao là nơi lý tưởng để thưởng thức những bữa tiệc riêng tư",
+      "_id": {
+        "$oid": "6726536bd3ce73581113c93a"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/amour-suite-1-1730564971380.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-11-02T16:29:31.383Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-02T16:29:31.383Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6726539bd3ce73581113c93d"
+  },
+  "room_number": "A2",
+  "room_name": "Amour",
+  "room_price": 31500000,
+  "room_type": "Phòng Amour Suite",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "01 phòng ngủ: 1 giường lớn",
+      "occupancy": "3 người lớn hoặc 2 người lớn + 1 trẻ em",
+      "size": "105 m2",
+      "bathroom": "Phòng tắm với bồn tắm sang trọng",
+      "view": "Tầm nhìn ra trung tâm công viên",
+      "unique_feature": "Sân vườn riêng trên cao là nơi lý tưởng để thưởng thức những bữa tiệc riêng tư",
+      "_id": {
+        "$oid": "6726539bd3ce73581113c93e"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/amour-suite-1-1730565019864.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-11-02T16:30:19.866Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-02T16:30:19.866Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "672653bdd3ce73581113c941"
+  },
+  "room_number": "A3",
+  "room_name": "Amour",
+  "room_price": 31500000,
+  "room_type": "Phòng Amour Suite",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "01 phòng ngủ: 1 giường lớn",
+      "occupancy": "3 người lớn hoặc 2 người lớn + 1 trẻ em",
+      "size": "105 m2",
+      "bathroom": "Phòng tắm với bồn tắm sang trọng",
+      "view": "Tầm nhìn ra trung tâm công viên",
+      "unique_feature": "Sân vườn riêng trên cao là nơi lý tưởng để thưởng thức những bữa tiệc riêng tư",
+      "_id": {
+        "$oid": "672653bdd3ce73581113c942"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/amour-suite-3-1730565053930.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-11-02T16:30:53.932Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-02T16:30:53.932Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67265417d3ce73581113c945"
+  },
+  "room_number": "A4",
+  "room_name": "Amour",
+  "room_price": 31500000,
+  "room_type": "Phòng Amour Suite",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "01 phòng ngủ: 2 giường đơn",
+      "occupancy": "3 người lớn hoặc 2 người lớn + 1 trẻ em",
+      "size": "105 m2",
+      "bathroom": "Phòng tắm với bồn tắm sang trọng",
+      "view": "Tầm nhìn ra trung tâm công viên",
+      "unique_feature": "Sân vườn riêng trên cao là nơi lý tưởng để thưởng thức những bữa tiệc riêng tư",
+      "_id": {
+        "$oid": "67265417d3ce73581113c946"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/amour-suite-1730565143895.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-11-02T16:32:23.898Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-02T16:32:23.898Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67265420d3ce73581113c949"
+  },
+  "room_number": "A5",
+  "room_name": "Amour",
+  "room_price": 31500000,
+  "room_type": "Phòng Amour Suite",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "01 phòng ngủ: 2 giường đơn",
+      "occupancy": "3 người lớn hoặc 2 người lớn + 1 trẻ em",
+      "size": "105 m2",
+      "bathroom": "Phòng tắm với bồn tắm sang trọng",
+      "view": "Tầm nhìn ra trung tâm công viên",
+      "unique_feature": "Sân vườn riêng trên cao là nơi lý tưởng để thưởng thức những bữa tiệc riêng tư",
+      "_id": {
+        "$oid": "67265420d3ce73581113c94a"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/amour-suite-1730565152212.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-11-02T16:32:32.215Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-02T16:32:32.215Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67265427d3ce73581113c94d"
+  },
+  "room_number": "A6",
+  "room_name": "Amour",
+  "room_price": 31500000,
+  "room_type": "Phòng Amour Suite",
+  "room_status": true,
+  "room_details": [
+    {
+      "beds": "01 phòng ngủ: 2 giường đơn",
+      "occupancy": "3 người lớn hoặc 2 người lớn + 1 trẻ em",
+      "size": "105 m2",
+      "bathroom": "Phòng tắm với bồn tắm sang trọng",
+      "view": "Tầm nhìn ra trung tâm công viên",
+      "unique_feature": "Sân vườn riêng trên cao là nơi lý tưởng để thưởng thức những bữa tiệc riêng tư",
+      "_id": {
+        "$oid": "67265427d3ce73581113c94e"
+      }
+    }
+  ],
+  "room_amenities": [
+    "[\"Túi giặt là\",\"Dép đi trong nhà\",\"Cây xỏ giày\",\"Bàn ủi và cầu ủi\",\"Ô che\",\"Trà, cà phê, nước khoáng\",\"Wifi miễn phí\",\"Tivi 50 inch\",\"Điện thoại\",\"Két an toàn\",\"Tủ minibar\",\"Cân điện tử\",\"Áo choàng tắm\",\"Máy sấy tóc\",\"Đồ vệ sinh cá nhân\",\"Đèn pin\"]"
+  ],
+  "room_img": [
+    "uploads/rooms/amour-suite-1730565159329.jpg"
+  ],
+  "createdAt": {
+    "$date": "2024-11-02T16:32:39.331Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-02T16:32:39.331Z"
+  },
+  "__v": 0
+}]

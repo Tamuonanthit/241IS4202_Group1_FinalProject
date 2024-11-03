@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&family=Playfair+Display:wght@700&display=swap");
+
+.home-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.image-wrapper {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/*Phần Giới thiệu*/
+
+.body-container {
+  width: 90%;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  line-height: 2;
+  font-weight: 100;
+  cursor: pointer;
+}
+
+.services {
+  height: max-content;
+  width: 90%;
+  font-size: 15px;
+  line-height: 2;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+.service-box hr {
+  border: 0;
+  height: 1px;
+  width: 150px;
+  background: #333;
+  margin-left: 0;
+}
+
+.body-container hr {
+  border: 0;
+  height: 0.5px;
+  width: 150px;
+  background: #333;
+  margin: 0 auto;
+}
+
+.service-box {
+  height: 600px;
+  width: 1000;
+}
+
+.service-box.one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.service-box.one img {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.service-box.one .text {
+  width: 50%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.service-box.one h1 {
+  color: black;
+  font-size: 25px;
+  margin-top: 0;
+  font-family: "Playfair Display";
+  line-height: 45px;
+}
+.body-container h1 {
+  color: black;
+  margin-top: 0;
+  font-size: 25px;
+  font-family: "Playfair Display";
+  line-height: 45px;
+  margin: 0 auto;
+  text-align: center;
+}
+.service-box.one h2 {
+  color: #cb9847;
+  font-size: 20px;
+  margin-top: 0;
+  font-family: "Playfair Display";
+  line-height: 45px;
+}
+
+.service-box.one p {
+  text-align: justify;
+}
+
+/*Event Section*/
+
+.meetingbackground {
+  position: relative;
+  margin: 50px 0;
+}
+
+.meetingbackground .bgmeeting img {
+  width: 100%;
+}
+
+.meetingbackground .content {
+  padding: 50px 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.9),
+    rgba(0, 0, 0, 0)
+  );
+  color: #ffffff;
+}
+
+.meetingbackground .content .leftcontent {
+  width: 400px;
+  padding-left: 50px;
+}
+
+.meetingbackground .content .leftcontent .subtitle {
+  font-size: 20px;
+  font-family: titlefont;
+  position: relative;
+}
+
+.meetingbackground .content .leftcontent .subtitle::after {
+  content: "";
+  bottom: -10px;
+  left: 0;
+  background: #ffffff;
+  height: 2px;
+  width: 150px;
+  position: absolute;
+}
+
+.meetingbackground .content .leftcontent .bigtitle {
+  font-size: 36px;
+  font-family: titlefont;
+  padding-top: 30px;
+  line-height: 45px;
+}
+
+.meetingbackground .content .rightcontent {
+  width: 96%;
+  align-self: flex-end;
+}
+
+.meetingbackground .readmore {
+  color: #ffffff;
+  padding: 20px 10px 0 0;
+  text-align: right;
+  text-decoration: none;
+}
+
+.meetingbackground .readmore:hover {
+  text-decoration: underline;
+}
+
+.meetingbackground .content .rightcontent .listdetail {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.meetingbackground .content .rightcontent .listdetail .detailitem {
+  text-align: center;
+  padding: 0 20px;
+  border-right: 1px solid #ffffff;
+}
+
+.meetingbackground .content .rightcontent .listdetail .detailitem:last-child {
+  border-right: none;
+}
+
+.meetingbackground .content .rightcontent .listdetail .detailitem .bigtext {
+  font-size: 36px;
+  font-family: titlefont;
+}
+
+/*Contact*/
+.container {
+  position: relative;
+  overflow: hidden;
+}
+
+.content1 h1 {
+  font-family: "Playfair Display", serif;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 2vw;
+}
+
+.bg-image {
+  width: 100%;
+  height: 250px;
+}
+
+.bg-image img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.bg-image::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.content1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #ffffff;
+  width: 80%;
+  max-width: 600px;
+  z-index: 2;
+}
+
+.subcribetitle {
+  font-family: "Playfair Display", serif;
+  font-size: 4vw;
+  font-weight: bold;
+  margin-bottom: 2vw;
+}
+
+.subcribesample {
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 2;
+}
+
+.subcribeform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subcribeform .email {
+  flex: 1;
+  padding: 10px 10px;
+  font-size: 13px;
+  border: none;
+}
+
+.subcribeform input[type="submit"] {
+  background-color: #333;
+  color: #ffffff;
+  padding: 10px 10px;
+  border: none;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.subcribeform input[type="submit"]:hover {
+  background-color: #555;
+}
+
+/* Slider */
+.slider {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider-wrapper {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.sliderr {
+  min-width: 25%;
+  box-sizing: border-box;
+}
+
+.sliderrr {
+  min-width: 50%;
+  box-sizing: border-box;
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:nth-of-type(1) {
+  left: 10px;
+}
+
+button:nth-of-type(2) {
+  right: 10px;
+}
+
+@media (max-width: 767px) {
+  .content1 {
+    width: 90%;
+  }
+}

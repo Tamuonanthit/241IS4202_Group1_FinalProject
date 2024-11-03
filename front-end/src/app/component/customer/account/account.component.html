@@ -1,0 +1,97 @@
+<div class="grid-container">
+  <!-- Tabs navigation -->
+  <div class="tabs-container">
+    <ul class="tabs-list">
+      <li class="tab-item">
+        <a href="#profile" (click)="selectTab('profile', $event)">
+          <button class="tab-button">
+            <i class="fa fa-user-circle"></i>Thông tin tài khoản
+          </button>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div>
+    <div *ngIf="selectedTab === 'profile'" class="tab-content">
+      <div class="profile-header">
+        <h3 class="profile-title">THÔNG TIN TÀI KHOẢN</h3>
+        <a
+          href="#editprofile"
+          class="edit-link"
+          (click)="selectTab('editprofile', $event)"
+        >
+          <button class="edit-button">
+            <i class="fas fa-pencil-alt"></i>Chỉnh sửa
+          </button>
+        </a>
+      </div>
+
+      <hr class="divider" />
+
+      <div class="profile-info">
+        <div class="info-item">
+          <p class="info-label">Họ và tên</p>
+          <p class="info-value">{{data.name}}</p>
+        </div>
+        <div class="info-item">
+          <p class="info-label">Giới tính</p>
+          <p class="info-value">{{data.gender}}</p>
+        </div>
+        <div class="info-item">
+          <p class="info-label">Ngày sinh</p>
+          <p class="info-value">{{data.dob}}</p>
+        </div>
+        <div class="info-item">
+          <p class="info-label">Số điện thoại</p>
+          <p class="info-value">{{data.phone}}</p>
+        </div>
+        <div class="info-item">
+          <p class="info-label">Email</p>
+          <p class="info-value">{{data.email}}</p>
+        </div>
+      </div>
+    </div>
+    <div *ngIf="selectedTab === 'editprofile'" class="tab-content">
+      <div class="profile-header">
+        <h3 class="profile-title">CHỈNH SỬA TÀI KHOẢN</h3>
+      </div>
+
+      <hr class="divider" />
+
+      <div class="profile-info">
+        <div class="info-item">
+          <label for="fullname">Họ và tên</label>
+          <input type="text" id="fullname" name="fullname" class="info-value" />
+        </div>
+        <div class="info-item">
+          <label for="gender">Giới tính</label>
+          <input type="radio" id="male" name="gender" value="Nam" />
+          <label for="male">Nam</label>
+          <input type="radio" id="female" name="gender" value="Nữ" />
+          <label for="female">Nữ</label>
+        </div>
+        <div class="info-item">
+          <label for="dob">Ngày sinh</label>
+          <input type="date" id="dob" name="dob" />
+        </div>
+        <div class="info-item">
+          <label for="phone_number">Số điện thoại</label>
+          <input type="text" id="phone_number" name="phone_number" />
+        </div>
+        <div class="info-item">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" />
+        </div>
+        <div style="text-align: center">
+          <button
+            href="#profile"
+            (click)="selectTab('profile', $event)"
+            class="s-button"
+          >
+            Cập nhật thông tin
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

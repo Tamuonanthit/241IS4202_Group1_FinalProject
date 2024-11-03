@@ -1,0 +1,78 @@
+<div class="home-container">
+  <div class="image-wrapper">
+    <h1>Nhà Hàng</h1>
+    <div class="image-overlay">
+      <img src="assets/image/dining.png" alt="" />
+    </div>
+  </div>
+</div>
+
+<div class="body-container">
+  <h2 class="title">MÓN MỚI</h2>
+  <hr />
+  <figure class="image-container">
+    <img src="assets/image/dining-overview.jpg" alt="" />
+  </figure>
+  <div class="small-container">
+    <h3 class="subtitle">
+      Chiêu đãi vị giác giữa tiên cảnh hư huyền của Tam Đảo
+    </h3>
+    <p>
+      Thả trôi tâm trí giữa mây trời Tam Đảo và chiêu đãi vị giác của bạn với ẩm
+      thực thượng hạng từ các đầu bếp trứ danh tại Dé Luna Hotel. Từ những món
+      Âu tinh tế đẳng cấp đến nền tinh hoa ẩm thực Á Đông, hay những món ăn
+      truyền thống không kém phần cầu kì và hấp dẫn từ Việt Nam, hãy để đầu bếp
+      của chúng tôi dẫn lối các vị khách – những tâm hồn đam mê ẩm thực đến với
+      bữa tiệc tự chọn đầy phong phú và khác biệt.
+    </p>
+  </div>
+
+<!-- Dining Sections -->
+<div class="services" *ngFor="let dining of diningList" [attr._id]="dining._id">
+    <div class="service-box one">
+      <ng-container *ngIf="dining._id % 2 === 1; else evenTemplate">
+        <img [src]="dining.restaurant_image" [alt]="dining.restaurant_name" />
+        <div class="text">
+          <h2>{{ dining.restaurant_name }}</h2>
+          <p>{{ dining.restaurant_decription }}</p>
+          <a [routerLink]="['/dining', dining._id]" class="details-link">
+            <span style="letter-spacing: 5px">Chi tiết</span>
+            <span class="arrow">→</span>
+          </a>
+        </div>
+      </ng-container>
+      <ng-template #evenTemplate>
+        <div class="text">
+          <h2>{{ dining.restaurant_name }}</h2>
+          <p>{{ dining.restaurant_decription }}</p>
+          <a [routerLink]="['/dining', dining._id]" class="details-link">
+            <span style="letter-spacing: 5px">Chi tiết</span>
+            <span class="arrow">→</span>
+          </a>
+        </div>
+        <img [src]="dining.restaurant_image" [alt]="dining.restaurant_name" />
+      </ng-template>
+    </div>
+  </div>
+</div>
+
+
+<!-- Contact -->
+<div class="container">
+  <div class="bg-image">
+    <img src="assets/image/imgd6.png" alt="" />
+  </div>
+  <div class="content">
+    <h1 class="title1">Đăng ký để nhận ưu đãi và tin tức</h1>
+    <div class="subcribesample">
+      <p>
+        Hãy là người đầu tiên biết về các ưu đãi mới nhất và các sự kiện đặc
+        biệt tại nhà hàng của chúng tôi bằng cách đăng ký email của bạn.
+      </p>
+    </div>
+    <form method="post" action="" class="subcribeform">
+      <input type="email" name="email" class="email" placeholder="YOUR EMAIL" />
+      <input name="sendemail" type="submit" value="SEND ME" />
+    </form>
+  </div>
+</div>

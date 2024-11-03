@@ -1,0 +1,25 @@
+<div class="mat-dialog-container">
+  <h1 mat-dialog-title>Sửa thông tin phòng</h1>
+  <div mat-dialog-content>
+    <mat-form-field>
+      <mat-label>Tên phòng</mat-label>
+      <input matInput [(ngModel)]="data.room_name" />
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Giá</mat-label>
+      <input matInput [(ngModel)]="data.room_price" />
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Trạng thái</mat-label>
+      <mat-select [(ngModel)]="data.room_status">
+        <mat-option value="true">Đang khả dụng</mat-option>
+        <mat-option value="false">Không khả dụng</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+  <div mat-dialog-actions>
+    <button mat-button (click)="onNoClick()">Hủy</button>
+    <button mat-button (click)="save()">Lưu</button>
+  </div>
+</div>

@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Open+Sans:wght@400;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet');
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+footer {
+  background-color: #c5a880;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+h3 {
+  font-family: "Playfair Display";
+  line-height: 30px;
+  height: 30px;
+  letter-spacing: 5px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+.logo {
+  margin-bottom: 20px;
+}
+.footer-columns {
+  display: flex;
+  justify-content: space-around; /* Giãn cách đều giữa các cột */
+  flex-wrap: wrap;
+}
+.column {
+  max-width: 400px; /* Tăng độ rộng tối đa của cột */
+  text-align: left;
+}
+.column h3 {
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 10px;
+  margin-bottom: 20px; /* Khoảng cách giữa tiêu đề và các dòng con */
+}
+.column a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px; /* Khoảng cách giữa các dòng */
+  font-size: 13px;
+}
+.column span {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+.office-spacing {
+  margin-top: 40px;
+}
+
+@media (max-width: 600px) {
+  .footer-columns {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Khoảng cách giữa các cột trên màn hình nhỏ */
+  }
+}

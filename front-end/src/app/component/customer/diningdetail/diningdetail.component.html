@@ -1,0 +1,117 @@
+<div class="home-container">
+  <div class="image-wrapper">
+    <h1>Nhà Hàng</h1>
+    <div class="image-overlay">
+      <img src="assets/image/dining.png" alt="" />
+    </div>
+  </div>
+</div>
+
+<!-- Dining -->
+
+<div *ngIf="diningDetail">
+  <div class="body-container">
+    <h2>{{ diningDetail.restaurant_name }}</h2>
+    <figure class="image-container">
+      <img
+        [src]="diningDetail.restaurant_image" [alt]=""
+      />
+    </figure>
+  </div>
+
+  <div class="spafeature">
+    <div class="body-container">
+      <h3 class="title">CHI TIẾT</h3>
+      <div class="listspafeature">
+        <div class="spafeatureitem firstrow">
+          <div class="icon">
+            <img decoding="async" src="assets/icon/uiwmap.png" />
+          </div>
+          <div class="content">
+            <h4>VỊ TRÍ</h4>
+            <div class="sample">
+              <p>{{ diningDetail.restaurant_detail.location }}</p>
+            </div>
+          </div>
+        </div>
+        <div class="spafeatureitem firstrow">
+          <div class="icon">
+            <img decoding="async" src="assets/icon/iconguest.png" />
+          </div>
+          <div class="content">
+            <h4>SỨC CHỨA</h4>
+            <div class="sample">
+              <p>{{ diningDetail.restaurant_detail.guest }}</p>
+            </div>
+          </div>
+        </div>
+        <div class="spafeatureitem">
+          <div class="icon">
+            <img decoding="async" src="assets/icon/iconrestaurant.png" />
+          </div>
+          <div class="content">
+            <h4>THỰC ĐƠN</h4>
+            <div class="sample">
+              <p>{{ diningDetail.restaurant_detail.menu_detail }}</p>
+            </div>
+          </div>
+        </div>
+        <div class="spafeatureitem">
+          <div class="icon">
+            <img decoding="async" src="assets/icon/iconhours.png" />
+          </div>
+          <div class="content">
+            <h4>GIỜ MỞ CỬA</h4>
+            <div class="sample">
+              <p>{{ diningDetail.restaurant_detail.hours }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="body-container">
+    <h3>THỰC ĐƠN</h3>
+    <hr />
+    <ul class="menu-list">
+      <li *ngFor="let item of diningDetail.restaurant_menu">{{ item }}</li>
+    </ul>
+  </div>
+
+  <div class="body-container1">
+    <h3>MÓN ĐẶC TRƯNG</h3>
+    <hr />
+    <br>
+    <div class="dishes-container">
+      <div class="dish" *ngFor="let dish of diningDetail.restaurant_signature">
+        <img [src]="dish.images" [alt]="dish.describe" />
+        <p>{{ dish.describe }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Contact -->
+<!-- <div class="container">
+    <div class="bg-image">
+      <img src="assets/image/imgd6.png" alt="" />
+    </div>
+    <div class="content1">
+      <h1 class="title1">Đăng ký để nhận ưu đãi và tin tức</h1>
+      <div class="subcribesample">
+        <p>
+          Hãy là người đầu tiên biết về các ưu đãi mới nhất và các sự kiện đặc
+          biệt tại nhà hàng của chúng tôi bằng cách đăng ký email của bạn.
+        </p>
+      </div>
+      <form method="post" action="" class="subcribeform">
+        <input
+          type="email"
+          name="email"
+          class="email"
+          placeholder="YOUR EMAIL"
+        />
+        <input name="sendemail" type="submit" value="SEND ME" />
+      </form>
+    </div>
+  </div> -->

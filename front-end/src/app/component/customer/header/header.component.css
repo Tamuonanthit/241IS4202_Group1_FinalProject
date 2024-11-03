@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Open+Sans:wght@400;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet');
+
+.header {
+  font-family: "Open Sans", sans-serif;
+  justify-content: space-between;
+  background-color: #c5a880;
+  color: white;
+  width: 100%;
+}
+
+.logo {
+  text-align: center;
+}
+
+.navigation {
+  text-align: center;
+}
+
+.navigation a {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  text-decoration: none;
+  position: relative;
+  padding: 2vw;
+  font-size: 1.5vw;
+}
+
+.navigation a.active {
+  color: black;
+}
+
+.navigation a.active::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0.2vw;
+  background: black;
+  bottom: -0.005vw;
+  left: 0;
+}
+
+.navigation a:hover {
+  color: black;
+}
+
+.actions {
+  text-align: right;
+}
+
+.actions .button {
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 1vw;
+  margin-left: 1.5vw;
+  color: white;
+  text-decoration: none;
+  border-radius: 0.5vw;
+  font-size: 1.2vw;
+}
+
+.actions .button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.actions .icon {
+  color: white;
+  font-size: 2vw;
+  margin-left: 2vw;
+}
+
+.bold {
+  padding: 2vw;
+}

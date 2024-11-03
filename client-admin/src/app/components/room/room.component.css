@@ -1,0 +1,14 @@
+.add-button {
+  margin: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+.add-button button {
+  background-color: #c5a880;
+  color: white;
+  border-radius: 1rem;
+}
+.title {
+  font-size: 2rem;
+  margin: 1rem;
+}

@@ -1,0 +1,143 @@
+<!-- Check availability -->
+<div class="container-book" *ngIf="bookingData" #bookingSection>
+  <form id="booking-form">
+    <div class="form-group">
+      <h1>Best Rate <br />Guarantee</h1>
+      <div>
+        <label for="arrival-date">Ngày đến:</label>
+        <input type="date" id="arrival-date" [value]="bookingData.arrivalDate" required disabled style="background-color: white;" />
+      </div>
+      <div>
+        <label for="departure-date">Ngày đi:</label>
+        <input type="date" id="departure-date" [value]="bookingData.departureDate" required disabled style="background-color: white;" />
+      </div>
+      <div>
+        <label for="adults">Người lớn:</label>
+        <select id="adults" [(ngModel)]="bookingData.adults" name="adults" required disabled>
+          <option *ngFor="let adult of [1, 2, 3, 4, 5, 6, 7, 8, 9]" [value]="adult">{{ adult }}</option>
+        </select>
+      </div>
+      <div>
+        <label for="children">Trẻ em:</label>
+        <select id="children" [(ngModel)]="bookingData.children" name="children" required disabled>
+          <option *ngFor="let child of [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]" [value]="child">{{ child }}</option>
+        </select>
+      </div>
+      <div>
+        <label for="infants">Trẻ sơ sinh:</label>
+        <select id="infants" [(ngModel)]="bookingData.infants" name="infants" required disabled>
+          <option *ngFor="let infant of [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]" [value]="infant">{{ infant }}</option>
+        </select>
+      </div>
+      <div>
+        <button type="button" [routerLink]="['/room']">Thay đổi</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<!-- Filter by price -->
+<!-- Filter and Sort Section -->
+<div class="filter-sort-section" style="display: flex; align-items: center;">
+  <div class="filter-section" style="margin-right: 30px;">
+    <label style="padding-right: 20px; padding-left: 20px;">Lọc theo giá</label>
+    <select [(ngModel)]="selectedPriceRange" (change)="filterRooms()">
+      <option value="">Chọn khoảng giá</option>
+      <option value="3-5">3 triệu - 5 triệu</option>
+      <option value="5-7">5 triệu - 7 triệu</option>
+      <option value="7+">Trên 7 triệu</option>
+    </select>
+  </div>
+
+  <div class="sort-section">
+    <label style="padding-right: 20px;">Sắp xếp theo giá</label>
+    <select [(ngModel)]="sortOrder" (change)="sortRooms()">
+      <option value="">Chọn cách sắp xếp</option>
+      <option value="asc">Giá từ thấp đến cao</option>
+      <option value="desc">Giá từ cao đến thấp</option>
+    </select>
+  </div>
+</div>
+
+
+<!-- List availability -->
+<div class="container">
+  <div class="cart">
+    <h2>Danh sách phòng trống</h2>
+    <div>
+      <label>
+        <input type="checkbox" (change)="toggleSelectAll($event)" />
+        Chọn tất cả
+      </label>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Chọn</th>
+          <th>Ảnh</th>
+          <th>Tên phòng</th>
+          <th>Giá</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let room of filteredRooms">
+          <td>
+            <input
+              type="checkbox"
+              [(ngModel)]="room.selected"
+              (change)="updateTotal()"
+            />
+          </td>
+          <td>
+            <img
+              class="product-image"
+              [src]="room.room_img[0]"
+              alt="{{ room.room_name }}"
+              (click)="openModal(room.room_img[0])"
+            />
+          </td>
+          <td>
+            <div class="product-details">
+              <span>{{ room.room_name }}</span>
+            </div>
+          </td>
+          <td>{{ room.room_price }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="modal" *ngIf="isModalOpen" (click)="closeModal()">
+    <div class="modal-content" (click)="$event.stopPropagation()">
+      <span class="close" (click)="closeModal()">&times;</span>
+      <img [src]="selectedRoomImg" alt="Room Image" class="modal-image" />
+    </div>
+  </div>
+
+
+  <div class="cart-2">
+    <div class="invoice">
+      <h2>Hóa đơn</h2>
+      <div class="invoice-details">
+        <div>
+          <label>Tạm tính</label>
+        </div>
+        <div class="value">
+          <span>{{ totalPrice }}</span>
+        </div>
+      </div>
+      <div class="invoice-details">
+        <div>
+          <label><strong>Tổng cộng</strong></label>
+        </div>
+        <div class="value">
+          <span><strong>{{ finalPrice }}</strong></span>
+        </div>
+        <div style="padding-top: 20px; justify-content: center; display: flex">
+          <button type="button" (click)="goToPayment()">Đặt phòng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

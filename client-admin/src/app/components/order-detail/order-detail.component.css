@@ -1,0 +1,23 @@
+.mat-dialog-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1.25rem;
+  margin-top: 1rem;
+  border-radius: 2rem;
+}
+
+.details-grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1rem;
+  text-align: left;
+  box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+
+.title {
+  font-weight: bold;
+  background-color: #f5f5f5;
+}

@@ -1,0 +1,10 @@
+[{
+  "_id": {
+    "$oid": "6725fae2ab28136621cc786d"
+  },
+  "email": "hkhiyen3@gmail.com",
+  "createdAt": {
+    "$date": "2024-11-02T10:11:46.925Z"
+  },
+  "__v": 0
+}]

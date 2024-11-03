@@ -1,0 +1,32 @@
+<header class="header">
+  <div class="bold">
+    <div class="actions">
+      <a *ngIf="!isLogin()" routerLink="/login" class="button">Đăng Nhập</a>
+      <a *ngIf="!isLogin()" routerLink="/signup" class="button"
+        >Tạo Tài Khoản</a
+      >
+      <a *ngIf="isLogin()" (click)="onLogout()" class="button">Đăng Xuất</a>
+      <a *ngIf="isLogin()" routerLink="/account" class="icon">
+        <i class="fa fa-user-circle"></i>
+      </a>
+    </div>
+    <div class="logo" wight="300px">
+      <img src="assets\image\logo.png" width="360" />
+    </div>
+    <br /><br />
+    <div class="center">
+      <div class="navigation">
+        <a routerLink="/homepage" routerLinkActive="active">TRANG CHỦ</a>
+        <a routerLink="/home" routerLinkActive="active">TỔNG QUAN</a>
+        <a routerLink="/room" routerLinkActive="active">PHÒNG NGHỈ</a>
+        <a routerLink="/dining" routerLinkActive="active">NHÀ HÀNG</a>
+        <a routerLink="/meeting" routerLinkActive="active"
+          >HỘI NGHỊ VÀ SỰ KIỆN</a
+        >
+        <a routerLink="/service" routerLinkActive="active"
+          >DỊCH VỤ VÀ TIỆN ÍCH</a
+        >
+      </div>
+    </div>
+  </div>
+</header>

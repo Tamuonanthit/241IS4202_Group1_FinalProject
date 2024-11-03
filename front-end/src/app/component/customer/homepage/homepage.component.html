@@ -1,0 +1,163 @@
+<div class="home-container">
+  <div class="image-wrapper" [style.transform]="transformStyle">
+    <div class="slide" *ngFor="let image of images">
+      <img [src]="image" alt="Image" />
+    </div>
+  </div>
+</div>
+
+<!-- Phần giới thiệu -->
+<!-- Service -->
+<div style="background-color: #f8f0e4">
+  <div class="services">
+    <!-- Khung 1 -->
+    <div class="service-box one">
+      <img
+        src="assets/image/homewelcome.png"
+        alt=""
+        style="width: auto; height: 500px"
+      />
+      <div class="text">
+        <h1>XIN CHÀO!</h1>
+        <hr />
+        <h2>Điểm đến lý tưởng cho hành trình cảm xúc đầy ấn tượng!</h2>
+        <p>
+          Chào mừng Quý khách đến với Dé Luna Hotel, điểm dừng chân mang đầy
+          lãng mạn dành cho du khách có gu thưởng thức tinh tế! Cách sân bay Nội
+          Bài chỉ 50km, Dé Luna Hotel như thuộc về thế giới khác với núi non
+          trùng điệp cùng những dải mây bồng bềnh hư ảo của thị trấn Tam Đảo.
+        </p>
+        <p>
+          Tạm gác lại những nhịp sống vội vàng hối hả, Dé Luna Hotel sẽ đưa du
+          khách chạm tới sự an yên tuyệt đối không gian nghỉ dưỡng tinh tế và
+          tiện nghi bậc nhất cùng dịch vụ nồng hậu, chăm chút tới từng chi tiết,
+          tái hiện câu chuyện tình yêu lãng mạn vượt thời gian trong mọi khoảnh
+          khắc trải nghiệm.
+        </p>
+        <p>
+          Sự tổng hoà hoàn hảo giữa đất trời và con người, tiện nghi và thiên
+          nhiên nơi đây là khởi đầu đầy hứa hẹn cho những cung bậc cảm xúc bất
+          tận.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="services">
+  <!-- Khung 2 -->
+  <div class="service-box one">
+    <div class="text">
+      <h1>KHÔNG GIAN TÌNH YÊU LÃNG MẠN</h1>
+      <hr />
+      <h2>Tái hiện không gian của tình yêu lãng mạn vượt thời gian</h2>
+      <p>
+        Dé Luna Hotel sẽ đưa bạn chạm tới sự an yên tuyệt đối trong không gian
+        giao thoa giữa những sắc màu hiện đại và những nhấn nhá cổ điển, tái
+        hiện câu chuyện tình yêu lãng mạn vượt thời gian trong mọi khoảnh khắc
+        trải nghiệm.
+      </p>
+    </div>
+    <img src="assets/image/homerelax.png" alt="" />
+  </div>
+</div>
+
+<!-- Room -->
+<div class="body-container" (click)="navigateToRoom()">
+  <h1>KHÁCH SẠN</h1>
+  <hr />
+  <br>
+  <div class="slider">
+    <div class="slider-wrapper" [style.transform]="transformStyle">
+      <div class="sliderr" *ngFor="let image of imageroom">
+        <img [src]="image" alt="Image" />
+      </div>
+    </div>
+    <button (click)="prevImage()">
+      <i class="fa fa-angle-left"></i>
+    </button>
+    <button (click)="nextImage()">
+      <i class="fa fa-angle-right"></i>
+    </button>
+  </div>
+</div>
+
+
+<!-- Dining -->
+<div class="body-container" (click)="navigateToRes()">
+  <h1>NHÀ HÀNG</h1>
+  <hr />
+  <br>
+  <div class="slider">
+    <div class="slider-wrapper" [style.transform]="transformStyle">
+      <div class="sliderrr" *ngFor="let image of imageres">
+        <img [src]="image" alt="Image" />
+      </div>
+    </div>
+    <button (click)="prevImage()">
+      <i class="fa fa-angle-left"></i>
+    </button>
+    <button (click)="nextImage()">
+      <i class="fa fa-angle-right"></i>
+    </button>
+  </div>
+</div>
+
+
+<!-- Event Section -->
+<div class="meetingbackground">
+  <div class="bgmeeting">
+    <img decoding="async" src="assets/image/img4.jpg" />
+  </div>
+  <div class="content">
+    <div class="leftcontent">
+      <div class="subtitle">HỘI NGHỊ VÀ SỰ KIỆN</div>
+      <div class="bigtitle">
+        Nơi biến những sự kiện trở nên đáng nhớ hơn bao giờ hết!
+      </div>
+    </div>
+    <div class="rightcontent">
+      <div class="listdetail">
+        <div class="detailitem">
+          <div class="bigtext">400</div>
+          <div class="smalltext">Khách</div>
+        </div>
+        <div class="detailitem">
+          <div class="bigtext">03</div>
+          <div class="smalltext">Phòng VIP</div>
+        </div>
+        <div class="detailitem">
+          <div class="bigtext">837 m2</div>
+          <div class="smalltext">Không gian sự kiện</div>
+        </div>
+      </div>
+      <div class="readmore">
+        <a routerLink="/meeting" routerLinkActive="active" class="readmore">
+          <span style="letter-spacing: 5px">Chi tiết</span>
+          <span class="arrow">→</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Contact-->
+
+<div class="container">
+  <div class="bg-image">
+    <img src="assets/image/home-bgsub.jpg" alt="Background Image" />
+  </div>
+  <div class="content1">
+    <h1>Nhận tin tức, quà tặng & ưu đãi!</h1>
+    <div class="subcribesample">
+      <p>
+        Ưu đãi, quà tặng đặc biệt và tin tức thú vị sẽ được gửi đến email của
+        bạn.
+      </p>
+    </div>
+    <form method="post" action="" class="subcribeform">
+      <input type="email" name="email" class="email" placeholder="YOUR EMAIL" />
+      <input name="sendemail" type="submit" value="SEND ME" />
+    </form>
+  </div>
+</div>

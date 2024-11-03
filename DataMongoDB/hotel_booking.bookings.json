@@ -1,0 +1,96 @@
+[{
+  "_id": {
+    "$oid": "6722e9fe1e181d6e34690254"
+  },
+  "check_in_date": {
+    "$date": "2024-05-19T17:00:00.000Z"
+  },
+  "check_out_date": {
+    "$date": "2024-05-29T17:00:00.000Z"
+  },
+  "contact_infor": {
+    "full_name": "Khai Yen Ho",
+    "gender": "female",
+    "phone_number": "0123456789",
+    "email": "nguyenvana@example.com",
+    "address": "123 Le Loi, District 1, Ho Chi Minh City"
+  },
+  "guest": [
+    {
+      "name": "Nguyen Van B",
+      "_id": {
+        "$oid": "6722e9fe1e181d6e34690255"
+      }
+    },
+    {
+      "name": "Tran Thi C",
+      "_id": {
+        "$oid": "6722e9fe1e181d6e34690256"
+      }
+    }
+  ],
+  "checkin_time": "1h-3h",
+  "special_request": "Late check-out if possible",
+  "booking_status": "pending",
+  "total_amount": 500,
+  "room_id": [
+    "6722615141e9afb5d84056d8",
+    "6722653241e9afb5d84056e6"
+  ],
+  "user_id": "6714c1cf394aaea830b334be",
+  "createdAt": {
+    "$date": "2024-10-31T02:22:54.118Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-31T02:22:54.118Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67248af968c52fc1cf25d845"
+  },
+  "check_in_date": {
+    "$date": "2024-05-19T17:00:00.000Z"
+  },
+  "check_out_date": {
+    "$date": "2024-05-29T17:00:00.000Z"
+  },
+  "contact_infor": {
+    "full_name": "Khai Yen Ho",
+    "gender": "female",
+    "phone_number": "0123456789",
+    "email": "nguyenvana@example.com",
+    "address": "123 Le Loi, District 1, Ho Chi Minh City"
+  },
+  "guest": [
+    {
+      "name": "Nguyen Van B",
+      "_id": {
+        "$oid": "67248af968c52fc1cf25d846"
+      }
+    },
+    {
+      "name": "Tran Thi C",
+      "_id": {
+        "$oid": "67248af968c52fc1cf25d847"
+      }
+    }
+  ],
+  "checkin_time": "1h-3h",
+  "special_request": "Late check-out if possible",
+  "booking_status": "canceled",
+  "total_amount": 500,
+  "room_id": [
+    "672267af41e9afb5d84056f6",
+    "6722680541e9afb5d8405702"
+  ],
+  "user_id": "6714c1cf394aaea830b334be",
+  "createdAt": {
+    "$date": "2024-11-01T08:02:01.880Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-01T08:15:55.019Z"
+  },
+  "__v": 0
+}]

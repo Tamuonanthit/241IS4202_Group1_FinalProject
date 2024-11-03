@@ -1,0 +1,233 @@
+[{
+  "_id": {
+    "$oid": "671df5b3a24f09e2e1815da4"
+  },
+  "restaurant_name": "Nhà hàng La Vie en Rose",
+  "restaurant_detail": {
+    "location": "Tầng 1",
+    "guest": 200,
+    "menu_detail": "All-day dining: Ăn sáng buffet, Set menu, À la carte",
+    "hours": "7:00 - 21:00"
+  },
+  "restaurant_menu": [
+    "Royal Crab meat salad Spring vegetable with sesame cracker",
+    "Sticky rice soup with abalone and green bean Vietnamese mountain ginseng",
+    "Steamed garrupa (Song Fish) with ginger leaf Vietnamese fresh noodles with soya sauce",
+    "Grilled Nha Trang Lobster with sea salt",
+    "Grilled beef tenderloin in bamboo",
+    "Deep fried sticky rice cake",
+    "Lobster with seafood sauce",
+    "Steamed red snapper with soya sauce",
+    "Grilled oyster with onion oil",
+    "Stir fried mountain chicken with rock salt",
+    "Grilled Aus beef in DONG leaf",
+    "Stir fried vegetables with mushroom",
+    "Mushroom and lotus seed congee",
+    "Stir fried king crab legs in rock salt",
+    "Baked lobster with cheese",
+    "Stir fried king rock lobster in tamarind sauce",
+    "Steamed grouper with black mushroom"
+  ],
+  "restaurant_signature": [
+    {
+      "images": "uploads/restaurants/dishes1-1730016800198.jpg",
+      "describe": "Royal Crab meat salad Spring vegetable with sesame cracker ",
+      "_id": {
+        "$oid": "671df6201ae2a3ca3beec348"
+      }
+    },
+    {
+      "images": "uploads/restaurants/dishes2-1730016800204.jpg",
+      "describe": "Steamed red snapper with soya sauce",
+      "_id": {
+        "$oid": "671df6201ae2a3ca3beec349"
+      }
+    },
+    {
+      "images": "uploads/restaurants/dishes3-1730016814288.jpg",
+      "describe": "Stir fried king crab legs in rock salt",
+      "_id": {
+        "$oid": "671df62e1ae2a3ca3beec34f"
+      }
+    },
+    {
+      "images": "uploads/restaurants/dishes4-1730016814289.jpg",
+      "describe": "Sticky rice soup with abalone and green bean Vietnamese mountain ginseng",
+      "_id": {
+        "$oid": "671df62e1ae2a3ca3beec350"
+      }
+    },
+    {
+      "images": "uploads/restaurants/dishes5-1730016825511.jpg",
+      "describe": "Steamed garrupa (Song Fish) with ginger leaf Vietnamese fresh noodles with soya sauce",
+      "_id": {
+        "$oid": "671df6391ae2a3ca3beec358"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-10-27T08:11:31.973Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-27T08:13:45.599Z"
+  },
+  "__v": 3
+},
+{
+  "_id": {
+    "$oid": "671df69d1ae2a3ca3beec35b"
+  },
+  "restaurant_name": "Nhà hàng Le Palace",
+  "restaurant_detail": {
+    "location": "Tầng 3",
+    "guest": 150,
+    "menu_detail": "Ala carte, Set menu",
+    "hours": "11:00 - 14:00"
+  },
+  "restaurant_menu": [
+    "Dimsum",
+    "Vị quay Bắc Kinh",
+    "Nhất Phẩm Phật Khiêu Tường"
+  ],
+  "restaurant_signature": [
+    {
+      "images": "uploads/restaurants/1-1730017102217.jpeg",
+      "describe": "Dimsum",
+      "_id": {
+        "$oid": "671df74e1ae2a3ca3beec361"
+      }
+    },
+    {
+      "images": "uploads/restaurants/2-1730017102229.jpeg",
+      "describe": "Vịt quay Bắc Kinh",
+      "_id": {
+        "$oid": "671df74e1ae2a3ca3beec362"
+      }
+    },
+    {
+      "images": "uploads/restaurants/3-1730017116130.jpeg",
+      "describe": "Nhất Phẩm Phật Khiêu Tường",
+      "_id": {
+        "$oid": "671df75c1ae2a3ca3beec368"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-10-27T08:15:25.961Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-27T08:18:36.198Z"
+  },
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "671df7e21ae2a3ca3beec36b"
+  },
+  "restaurant_name": "Nhà hàng Les Amoureux",
+  "restaurant_detail": {
+    "location": "Tầng 4",
+    "guest": 80,
+    "menu_detail": "Drink, Set menu",
+    "hours": "10:00 - 21:00"
+  },
+  "restaurant_menu": [
+    "Lobster with seafood sauce",
+    "Steamed red snapper with soya sauce",
+    "Grilled oyster with onion oil",
+    "Stir fried mountain chicken with rock salt",
+    "Grilled Aus beef in DONG leaf",
+    "Stir fried vegetables with mushroom",
+    "Mushroom and lotus seed congee",
+    "Baked lobster with cheese",
+    "Steamed grouper with black mushroom"
+  ],
+  "restaurant_signature": [
+    {
+      "images": "uploads/restaurants/juice1-1730017308653.jpg",
+      "describe": "Sinh tố dưa hâú",
+      "_id": {
+        "$oid": "671df81c1ae2a3ca3beec36f"
+      }
+    },
+    {
+      "images": "uploads/restaurants/juice2-1730017308653.jpeg",
+      "describe": "Cocktail hoa quả",
+      "_id": {
+        "$oid": "671df81c1ae2a3ca3beec370"
+      }
+    },
+    {
+      "images": "uploads/restaurants/juice3-1730017318581.png",
+      "describe": "Nước ép lựu",
+      "_id": {
+        "$oid": "671df8261ae2a3ca3beec376"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-10-27T08:20:50.919Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-27T08:21:58.670Z"
+  },
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "671df92e1ae2a3ca3beec379"
+  },
+  "restaurant_name": "Nhà hàng Le Ciel",
+  "restaurant_detail": {
+    "location": "Tầng G",
+    "guest": 80,
+    "menu_detail": "Drink, Set menu",
+    "hours": "10:00 - 21:00"
+  },
+  "restaurant_menu": [
+    "Royal Crab meat salad Spring vegetable with sesame cracker",
+    "Sticky rice soup with abalone and green bean Vietnamese mountain ginseng",
+    "Steamed garrupa (Song Fish) with ginger leaf Vietnamese fresh noodles with soya sauce",
+    "Lobster with seafood sauce",
+    "Steamed red snapper with soya sauce",
+    "Grilled oyster with onion oil",
+    "Stir fried mountain chicken with rock salt",
+    "Grilled Aus beef in DONG leaf",
+    "Stir fried vegetables with mushroom",
+    "Mushroom and lotus seed congee",
+    "Stir fried king crab legs in rock salt",
+    "Baked lobster with cheese",
+    "Stir fried king rock lobster in tamarind sauce",
+    "Steamed grouper with black mushroom"
+  ],
+  "restaurant_signature": [
+    {
+      "images": "uploads/restaurants/juice1-1730017765812.jpg",
+      "describe": "Sinh tố dưa hâú",
+      "_id": {
+        "$oid": "671df9e51ae2a3ca3beec37d"
+      }
+    },
+    {
+      "images": "uploads/restaurants/dishes4-1730017765813.jpg",
+      "describe": "Sticky rice soup with abalone and green bean Vietnamese mountain ginseng",
+      "_id": {
+        "$oid": "671df9e51ae2a3ca3beec37e"
+      }
+    },
+    {
+      "images": "uploads/restaurants/2-1730017776940.jpeg",
+      "describe": "Nhất Phẩm Phật Khiêu Tường",
+      "_id": {
+        "$oid": "671df9f11ae2a3ca3beec384"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-10-27T08:26:22.339Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-27T08:29:37.008Z"
+  },
+  "__v": 2
+}]

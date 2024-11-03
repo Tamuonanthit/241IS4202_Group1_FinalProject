@@ -1,0 +1,303 @@
+/* Importing Google Fonts correctly */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  background-color: white;
+}
+
+/*Phần thanh booking*/
+.container-book {
+  display: flex;
+  vertical-align: middle;
+  flex-direction: column;
+  background: #cb9847;
+  padding: 0px 20px;
+  border-radius: 8px;
+  height: 80px;
+  margin: 20px;
+  margin-bottom: 40px;
+}
+
+h1 {
+  text-align: left;
+  color: white;
+  font-size: 20px;
+  font-family: "Playfair Display";
+  line-height: 30px;
+}
+
+.form-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-group label {
+  flex: 1 1 100%;
+  margin-right: 5px;
+  color: white;
+}
+
+input[type="date"],
+input[type="number"],
+select {
+  flex: 1 1 calc(33% - 10px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-right: 10px;
+}
+
+input[type="date"]:last-child,
+select:last-child {
+  margin-right: 0;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #2e141e;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+/*Phần Overview*/
+.deluxe-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically if needed */
+  text-align: center; /* Center text inside the container */
+}
+
+.overview {
+  margin: 20px;
+}
+
+.overview h1 {
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1px; /* Adjusted for better readability */
+  margin-bottom: 30px;
+  color: #cb9847;
+  font-size: 25px;
+  font-weight: 600; /* Use a numeric value, 400 is normal, 700 is bold */
+  position: relative;
+  text-align: center;
+}
+.details-link {
+  color: #cb9847;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.room-details {
+  display: flex;
+  justify-content: center; /* Căn giữa theo chiều ngang */
+  align-items: center; /* Căn giữa theo chiều dọc nếu chiều cao được xác định */
+  margin-top: 20px; /* Khoảng cách trên cùng, tùy chỉnh theo nhu cầu */
+  border-radius: 5px;
+}
+
+.room-detail-table {
+  width: 50%;
+  border-collapse: collapse; /* Gộp các đường viền lại */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2); /* Thêm shadow */
+  transition: all 0.3s ease-in-out; /* Thêm hiệu ứng mượt mà khi hover */
+}
+
+.room-detail-table td {
+  padding: 8px;
+  border: 1px solid #ddd; /* Border mỏng, màu xám nhẹ */
+  text-align: left;
+}
+
+.room-detail-table .detail-title {
+  font-weight: bold; /* Làm đậm cho label */
+  background-color: #cb9847; /* Màu nền nhẹ cho cột title */
+  color: white;
+  text-align: center;
+}
+
+.room-detail-table .detail-value {
+  color: #333; /* Màu chữ tối cho giá trị */
+  padding-left: 20px;
+}
+
+.room-detail-table tr:nth-child(even) {
+  background-color: #f2f2f2; /* Làm nền xen kẽ cho các dòng */
+}
+
+.room-detail-table tr:hover {
+  background-color: #f1f1f1; /* Màu nền khi hover */
+}
+
+.details-link:hover {
+  text-decoration: underline;
+}
+
+.overview p {
+  line-height: 1.5;
+  color: black;
+  margin: 0; /* Remove default margin for better alignment */
+}
+
+/*Phần Services*/
+.services-container {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 0;
+  background-color: #f8f0e4;
+}
+
+.services-container h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+  letter-spacing: 5;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #161616;
+  font-size: 25px;
+  position: relative;
+  font-weight: 500;
+  text-decoration: none;
+}
+.services-container h1::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -15px;
+  width: 200px;
+  height: 1px;
+  background-color: #161616;
+  margin-top: -20px;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.service-item {
+  padding: 20px;
+}
+
+.service-item img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.service-item p {
+  font-size: 16px;
+  color: #161616;
+}
+
+/*Phần quy định*/
+.regulation {
+  margin: 40px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.regulation h1 {
+  font-family: "Playfair Display", serif;
+  letter-spacing: 5;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #161616;
+  font-size: 25px;
+  position: relative;
+  text-decoration: none;
+}
+.regulation h1::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -15px;
+  width: 200px;
+  height: 3px;
+  background-color: #161616;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.column {
+  flex: 1;
+  border-radius: 8px;
+}
+
+.column h3 {
+  font-family: "Playfair Display", serif;
+  color: #cb9847;
+  font-size: 20px;
+  line-height: 45px;
+}
+
+.column ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.column ul li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.column ul li span {
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.column {
+  flex: 1;
+  padding: 10px;
+  margin: 0 10px;
+}
+.column h2 {
+  text-align: center;
+  color: #333;
+}
+ul {
+  padding: 0;
+  list-style-type: disc;
+}
+ul li {
+  margin: 2px 90px;
+  padding: 2px;
+  border-radius: 3px;
+  text-align: left;
+  list-style-type: disc;
+}
+
+.room-image {
+  width: 100%; /* Đảm bảo ảnh chiếm 100% chiều rộng của container */
+  max-width: 600px; /* Cài đặt chiều rộng tối đa của ảnh */
+  height: auto; /* Tự động điều chỉnh chiều cao để giữ tỷ lệ */
+  border-radius: 5px; /* Bo góc ảnh */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2); /* Thêm shadow */
+  transition: all 0.3s ease-in-out; /* Thêm hiệu ứng mượt mà khi hover */
+}
+
+.room-image:hover {
+  transform: scale(1.05); /* Phóng to ảnh khi hover */
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.3); /* Tăng cường shadow khi hover */
+}

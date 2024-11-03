@@ -1,0 +1,291 @@
+<html>
+    <body>
+      <div class="progress-bar">
+        <div class="stage confirm" id="confirmStage">Confirm thông tin</div>
+        <div class="stage payment" id="paymentStage">Thanh toán</div>
+      </div>
+      <div style="padding: 10px 110px;">
+        <label for="currency" style="margin-right: 20px;">Chọn đơn vị tiền:</label>
+        <select id="currency" [(ngModel)]="selectedCurrency" (change)="updatePrices()">
+          <option value="VND">VNĐ</option>
+          <option value="USD">USA</option>
+          <option value="EUR">EUR</option>
+          <option value="KWD">KWD</option>
+          <option value="AUD">AUD</option>
+        </select>
+      </div>
+      <!-- Giai đoạn Confirm thông tin -->
+      <div class="container" id="confirmInfo">
+            <div class="contain">
+              <div class="content" id="contentArea">
+                <!-- Giai đoạn Confirm thông tin -->
+                <div>
+                  <h2>Xác nhận thông tin</h2>
+                  <div class="info-box">
+                    <!-- Thông tin liên hệ -->
+                    <h3>Thông tin liên hệ</h3>
+                    <table style="border-collapse: collapse; width: 100%;">
+                      <tr>
+                        <td style="border-bottom: 1px solid #ddd; padding: 8px; text-align: left;">Họ và tên:</td>
+                        <td style="border-bottom: 1px solid #ddd; padding: 8px; text-align: left;">
+                          <input type="text" [(ngModel)]="user.fullname" placeholder="Tên của bạn" style="width: 100%; padding: 5px;">
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="border-bottom: 1px solid #ddd; padding: 8px; text-align: left;">Giới tính:</td>
+                        <td style="border-bottom: 1px solid #ddd; padding: 8px; text-align: left;">
+                          <label>
+                            <input type="radio" name="gender" value="Nam" [(ngModel)]="user.gender"> Nam
+                          </label>
+                          <label>
+                            <input type="radio" name="gender" value="Nữ" [(ngModel)]="user.gender"> Nữ
+                          </label>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="border-bottom: 1px solid #ddd; padding: 8px; text-align: left;">Ngày sinh</td>
+                        <td style="border-bottom: 1px solid #ddd; padding: 8px; text-align: left;">
+                          <input type="date" [(ngModel)]="user.dob" placeholder="Ngày sinh của bạn" style="width: 100%; padding: 5px;">
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="border-bottom: 1px solid #ddd; padding: 8px; text-align: left;">Số điện thoại:</td>
+                        <td style="border-bottom: 1px solid #ddd; padding: 8px; text-align: left;">
+                          <input type="text" [(ngModel)]="user.phone_number" placeholder="Số điện thoại của bạn" style="width: 100%; padding: 5px;">
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="border-bottom: 1px solid #ddd; padding: 8px; text-align: left;">Email:</td>
+                        <td style="border-bottom: 1px solid #ddd; padding: 8px; text-align: left;">
+                          <input type="email" [(ngModel)]="user.email" placeholder="Email của bạn" style="width: 100%; padding: 5px;">
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="border-bottom: 1px solid #ddd; padding: 8px; text-align: left;">Địa chỉ khách hàng</td>
+                        <td style="border-bottom: 1px solid #ddd; padding: 8px; text-align: left;">
+                          <input type="text" [(ngModel)]="user.address" placeholder="Địa chỉ của bạn" style="width: 100%; padding: 5px;">
+                        </td>
+                      </tr>
+                    </table>
+                                
+                    <!-- Thông tin khách -->  
+                    <h3>Thông tin khách</h3>
+                    <p>Số người: {{ people }}</p>
+                    <p>Ngày đến: {{ arrivalDate }}</p>
+                    <p>Ngày đi: {{ departureDate }}</p>
+                    <!-- checkin-time -->
+                    <p> 
+                        <label for="checkin-time" style="margin-right: 20px;">Check-in time:</label>
+                        <select id="checkin-time" name="checkin-time">
+                            <option value="00:00">0h - 1h</option>
+                            <option value="01:00">1h - 2h</option>
+                            <option value="02:00">2h - 3h</option>
+                            <option value="03:00">3h - 4h</option>
+                            <option value="04:00">4h - 5h</option>
+                            <option value="05:00">5h - 6h</option>
+                            <option value="06:00">6h - 7h</option>
+                            <option value="07:00">7h - 8h</option>
+                            <option value="08:00">8h - 9h</option>
+                            <option value="09:00">9h - 10h</option>
+                            <option value="10:00">10h - 11h</option>
+                            <option value="11:00">11h - 12h</option>
+                            <option value="12:00">12h - 13h</option>
+                            <option value="13:00">13h - 14h</option>
+                            <option value="14:00">14h - 15h</option>
+                            <option value="15:00">15h - 16h</option>
+                            <option value="16:00">16h - 17h</option>
+                            <option value="17:00">17h - 18h</option>
+                            <option value="18:00">18h - 19h</option>
+                            <option value="19:00">19h - 20h</option>
+                            <option value="20:00">20h - 21h</option>
+                            <option value="21:00">21h - 22h</option>
+                            <option value="22:00">22h - 23h</option>
+                            <option value="23:00">23h - 24h</option>
+                        </select>
+                    </p>
+                    <!--Thông tin khách-->
+                    <div id="guest-names">
+                        <table style="border-collapse: collapse; width: 100%;">
+                            <thead>
+                                <tr>
+                                    <td style="border-bottom: 1px solid #ddd; padding: 8px; text-align: left;">Họ và tên</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr *ngFor="let guest of guests">
+                                    <td style="border-bottom: 1px solid #ddd; padding: 8px; text-align: left;">
+                                      Khách hàng {{ guest.id }}
+                                    </td>
+                                    <td style="border-bottom: 1px solid #ddd; padding: 8px; text-align: left;">
+                                        <input type="text" placeholder="Tên của bạn" style="width: 100%; padding: 5px;" [(ngModel)]="guest.name">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <h3>Thông tin phòng</h3>
+                    <!-- Tick all -->
+                    <div>
+                      <label>
+                        <input
+                          type="checkbox"
+                          [checked]="allSelected"
+                          (change)="toggleSelectAll($event)"
+                        />
+                        Chọn tất cả
+                      </label>
+                    </div>
+                    <!-- List phòng -->
+                    <table>
+                      <thead>
+                        <tr>
+                          <th>Chọn</th>
+                          <th>Hình ảnh</th>
+                          <th>Sản phẩm</th>
+                          <th>Giá</th>
+                          <th>Xóa</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr *ngFor="let product of products; let i = index">
+                          <td>
+                            <input
+                              type="checkbox"
+                              [(ngModel)]="product.selected"
+                              (change)="updateTotal()"
+                            />
+                          </td>
+                          <td>
+                            <img
+                              class="product-image" [src]="product.room_img[0]" [alt]="product.room_name" />
+                          </td>
+                          <td>
+                            <span>{{ product.room_name }}</span> <!-- Use the correct property for name -->
+                          </td>
+                          <td>
+                            {{ product.room_price * (currencyRates[selectedCurrency]) | currency:selectedCurrency:'symbol':'1.0-0' }} <!-- Adjust for price -->
+                          </td>
+                          <td class="remove">
+                            <span (click)="removeProduct(i)">X</span>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    
+                    <!--Button-->             
+                    <div class="room-options">
+                      <button id="Delete" style="margin-top: 30px; float: right;" (click)="deleteSelectedProducts()" >Xóa phòng</button>
+                      <button id="changeRoom" style="margin-right: 20px; margin-top: 30px; float: right;" routerLink="/bookinglist">Chọn phòng khác</button>
+                    </div>           
+                  </div>
+                </div>
+              </div>
+              <!-- Hóa đơn -->
+              <div class="invoice">
+                <h2>Hóa đơn</h2>
+                <div class="invoice-details">
+                  <div>
+                    <label for="discount-code">Mã</label>
+                  </div>
+                  <div class="discount-code">
+                    <input
+                      type="text"
+                      id="discount-code"
+                      [(ngModel)]="discountCode"
+                      placeholder="Nhập mã giảm giá"
+                    />
+                    <button (click)="applyDiscount()">Thêm</button>
+                  </div>
+                </div>
+                <div class="invoice-details">
+                  <div>
+                    <label>Tạm tính</label>
+                  </div>
+                  <div class="value">
+                    <span>{{ totalPrice | currency:selectedCurrency:'symbol':'1.0-0' }}</span>
+                  </div>
+                </div>
+                <div class="invoice-details">
+                  <div>
+                    <label>Giảm giá</label>
+                  </div>
+                  <div class="value">
+                    <span>{{ discount | currency:selectedCurrency:'symbol':'1.0-0' }}</span>
+                  </div>
+                </div>
+                <div class="invoice-details">
+                  <div>
+                    <label><strong>Tổng cộng</strong></label>
+                  </div>
+                  <div class="value">
+                    <span><strong>{{ finalPrice | currency:selectedCurrency:'symbol':'1.0-0' }}</strong></span>
+                  </div>
+                </div>
+              </div> 
+            </div>   
+             <!--Button to next stage-->
+             <div style="display: flex; justify-content: center; align-items: center;">
+              <button id="nextStage" class="next-btn" (click)="goToPayment()">Tiếp theo</button>
+            </div>          
+      </div>
+      <!-- Giai đoạn thanh toán -->
+      <div class="container" id="paymentInfo">
+            <div class="contain">
+              <div class="content" id="contentArea" style="justify-content: center; text-align: center;">
+                <h2>Cảm ơn quý khách</h2>
+                <p>Quý khách có 15 phút để thực hiện thanh toán.</p>
+                <div class="countdown">
+                  <p id="countdownDisplay">{{ countdown }}</p>
+                </div>          
+                <img src="assets/image/qrcode.jpg" style="width: 50%; height: auto;">
+              </div>
+                <div class="invoice">
+                  <h2>Hóa đơn</h2>
+                  <div class="invoice-details">
+                    <div>
+                      <label for="discount-code">Mã</label>
+                    </div>
+                    <div class="discount-code">
+                      <input
+                        type="text"
+                        id="discount-code"
+                        [(ngModel)]="discountCode"
+                        placeholder="Nhập mã giảm giá"
+                      />
+                      <button (click)="applyDiscount()">Thêm</button>
+                    </div>
+                  </div>
+                  <div class="invoice-details">
+                    <div>
+                      <label>Tạm tính</label>
+                    </div>
+                    <div class="value">
+                      <span>{{ totalPrice | currency:selectedCurrency:'symbol':'1.0-0' }}</span>
+                    </div>
+                  </div>
+                  <div class="invoice-details">
+                    <div>
+                      <label>Giảm giá</label>
+                    </div>
+                    <div class="value">
+                      <span>{{ discount | currency:selectedCurrency:'symbol':'1.0-0' }}</span>
+                    </div>
+                  </div>
+                  <div class="invoice-details">
+                    <div>
+                      <label><strong>Tổng cộng</strong></label>
+                    </div>
+                    <div class="value">
+                      <span><strong>{{ finalPrice | currency:selectedCurrency:'symbol':'1.0-0' }}</strong></span>
+                    </div>
+                  </div>
+                </div>   
+              </div>
+            <div style="display: flex; justify-content: center; align-items: center;">
+              <button id="backStage" class="next-btn" (click)="cancelPayment()"  style="margin-right: 20px;">Quay lại</button>
+              <button id="backStage" class="next-btn" (click)="cancelPayment2()">Hủy</button>
+            </div>
+      </div>
+          
+    </body>
+</html>

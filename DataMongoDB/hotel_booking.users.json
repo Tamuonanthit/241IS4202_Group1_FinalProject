@@ -1,0 +1,291 @@
+[{
+  "_id": {
+    "$oid": "670ba54ad93657afd131b60c"
+  },
+  "username": "test1",
+  "password": "$2a$08$OibXCHlwnV8O0lYYg.zvHuH/Fg6.CrMsKbFflHKlmGgpNlODQZOO6",
+  "fullname": "user3",
+  "email": "hkhiyen1@gmail.com",
+  "phone_number": "098647512",
+  "avatar": "/uploads/users/avatar-1729530972444.png",
+  "gender": "Female",
+  "dob": {
+    "$date": "2017-12-03T17:00:00.000Z"
+  },
+  "address": "anljddshdhadsjsjdk",
+  "status": "login",
+  "verified": "inactive",
+  "isAdmin": true,
+  "resetPasswordToken": null,
+  "emailVerificationToken": null,
+  "emailVerificationExpire": null,
+  "createdAt": {
+    "$date": "2024-10-13T10:47:38.009Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-02T16:15:26.545Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6714bfd5ab1a92cc57741f5e"
+  },
+  "username": "nhatlinh",
+  "password": "$2a$08$RSZifWQYd3ynrSnV4HEQW.RWkAI8Ei0uuyGR6PwkMf7n77ipv0Mbu",
+  "fullname": "linh linh",
+  "email": "nhlinh512@gmail.com",
+  "phone_number": "012312323",
+  "gender": "Female",
+  "dob": {
+    "$date": "2024-04-01T17:00:00.000Z"
+  },
+  "address": "Test",
+  "status": "login",
+  "verified": "inactive",
+  "isAdmin": true,
+  "resetPasswordToken": null,
+  "emailVerificationToken": "c70c9753326bcca03bd4f3b166e72a07a846cd2a6a03f3b70fe76ee67683304a",
+  "emailVerificationExpire": {
+    "$date": "2024-10-20T08:46:17.381Z"
+  },
+  "createdAt": {
+    "$date": "2024-10-20T08:31:17.272Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-02T06:11:53.514Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6714c1cf394aaea830b334be"
+  },
+  "username": "test3",
+  "password": "$2a$08$gWnqUushN93KLvnuh8JBMeXy8eSQUyRWqn.apqgwqCeOOLJNnyebe",
+  "fullname": "khaiyen3",
+  "email": "hkhiyen3@gmail.com",
+  "phone_number": null,
+  "avatar": "/uploads/users/avatar-1729413583595.jpg",
+  "gender": "Unknown",
+  "dob": null,
+  "address": null,
+  "status": "login",
+  "verified": "inactive",
+  "isAdmin": false,
+  "resetPasswordToken": null,
+  "emailVerificationToken": "1c8522081c2229648a9fe3240b99120acd5c1f24afe27405d14424936f051a78",
+  "emailVerificationExpire": {
+    "$date": "2024-10-20T08:54:43.814Z"
+  },
+  "createdAt": {
+    "$date": "2024-10-20T08:39:43.721Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-01T09:41:10.493Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67167a54427e564016e5fb1b"
+  },
+  "username": "testAdmin",
+  "password": "$2a$08$7zNbY4vAys1leoyK4BGlB.Y.FVXFdHAtPJdsDNqsvsAc81BZxYIvC",
+  "fullname": "testadmin",
+  "email": "nhli@gmail.com",
+  "phone_number": null,
+  "gender": "Unknown",
+  "dob": null,
+  "address": null,
+  "status": "login",
+  "verified": "inactive",
+  "isAdmin": true,
+  "resetPasswordToken": null,
+  "emailVerificationToken": "3f3136d997cc31906c803405c33a8f16c41a580b0055b4f9ec787937b5f47b3b",
+  "emailVerificationExpire": {
+    "$date": "2024-10-21T16:14:16.884Z"
+  },
+  "createdAt": {
+    "$date": "2024-10-21T15:59:16.726Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-25T16:53:06.168Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "671c55c8ccd3f070ac517a18"
+  },
+  "username": "danchoiphonui",
+  "password": "$2a$08$jYA2xUQqqSn.YDZlw8sX0.xICbEXI4uJy93DXsVjLa4mXtOyJTfPy",
+  "fullname": "linh ta linh tinh",
+  "email": "12312323@gmail.com",
+  "phone_number": "0123456789",
+  "gender": "Nam",
+  "dob": null,
+  "address": null,
+  "status": "login",
+  "verified": "inactive",
+  "isAdmin": true,
+  "resetPasswordToken": null,
+  "emailVerificationToken": "83189656b6011fe03911ad4a1a8aa85e8aef9876ca69bdb4382821fa70a4cb70",
+  "emailVerificationExpire": {
+    "$date": "2024-10-26T02:51:56.664Z"
+  },
+  "createdAt": {
+    "$date": "2024-10-26T02:36:56.559Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-02T17:28:38.321Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67209759df6a90ca057d0e07"
+  },
+  "username": "dsasdasdasasd",
+  "password": "$2a$08$XHnRBGuLL2oHolm4nS4Ife50FYq7RamKutzfMbDPVOF3L3tPvfGn2",
+  "fullname": "asdasdasdasdas",
+  "email": "13123123@gmail.com",
+  "phone_number": null,
+  "avatar": "/uploads/users/avatar.jpg",
+  "gender": "Unknown",
+  "dob": null,
+  "address": null,
+  "status": null,
+  "verified": "inactive",
+  "isAdmin": false,
+  "resetPasswordToken": null,
+  "emailVerificationToken": "b552140703bacfa9de2cd45f9cd43d96312ed12e4cd88deadbda1a418af8a6a5",
+  "emailVerificationExpire": {
+    "$date": "2024-10-29T08:20:45.728Z"
+  },
+  "createdAt": {
+    "$date": "2024-10-29T08:05:45.664Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-29T08:05:45.728Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67211a37f4004601ca24d937"
+  },
+  "username": "tui-ne",
+  "password": "$2a$08$5tCW8kC.dAJLCroPggiFbuOPAVymiOBsx6ArCrOuidebi0d6aH2eW",
+  "fullname": "la tui ne",
+  "email": "test1@gmail.com",
+  "phone_number": null,
+  "avatar": "/uploads/users/avatar.jpg",
+  "gender": "Unknown",
+  "dob": null,
+  "address": null,
+  "status": "login",
+  "verified": "inactive",
+  "isAdmin": true,
+  "resetPasswordToken": null,
+  "emailVerificationToken": "b92503eeb12c2ec5497a74a3538d4032fd7c8e8b66b7e7dba3a266c63c0b2bef",
+  "emailVerificationExpire": {
+    "$date": "2024-10-29T17:39:07.323Z"
+  },
+  "createdAt": {
+    "$date": "2024-10-29T17:24:07.257Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-02T08:03:01.278Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67211b865fbde4b470668154"
+  },
+  "username": "isUser",
+  "password": "$2a$08$Ld4sdWkONb55jx0xA4J0oO77YdNFc1SiYiu3LifB2l.eDnaTyDnBa",
+  "fullname": "user3",
+  "email": "test2@gmail.com",
+  "phone_number": "6456836233",
+  "avatar": "/uploads/users/avatar.jpg",
+  "gender": "Female",
+  "dob": {
+    "$date": "2017-12-03T17:00:00.000Z"
+  },
+  "address": "anljddshdhadsjsjdk",
+  "status": "login",
+  "verified": "inactive",
+  "isAdmin": false,
+  "resetPasswordToken": null,
+  "emailVerificationToken": "9f5cd96c288185a3b77d8dcf3415cf9f5685f2f8a08458e247a5ee80d79bce9e",
+  "emailVerificationExpire": {
+    "$date": "2024-10-29T17:44:42.549Z"
+  },
+  "createdAt": {
+    "$date": "2024-10-29T17:29:42.392Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-01T10:14:55.765Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67249be601cf1fa7a044358a"
+  },
+  "username": "testing123",
+  "password": "$2a$08$nxzpY7Rf.E/nyluX2Go11.aU9W3zuYn5wLadu9Bwz7qRvlwUZeN5q",
+  "fullname": "oach xa lach",
+  "email": "aaaaaaaaaaaaaa@gmail.com",
+  "phone_number": null,
+  "avatar": "/uploads/users/avatar.jpg",
+  "gender": "Unknown",
+  "dob": null,
+  "address": null,
+  "status": null,
+  "verified": "inactive",
+  "isAdmin": false,
+  "resetPasswordToken": null,
+  "emailVerificationToken": "646b378a3c3c864b8706b29748f20263ff93c153a54af75185adc45e15537f02",
+  "emailVerificationExpire": {
+    "$date": "2024-11-01T09:29:14.581Z"
+  },
+  "createdAt": {
+    "$date": "2024-11-01T09:14:14.489Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-01T09:14:14.581Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67249c5901cf1fa7a04435bf"
+  },
+  "username": "aaaaaaaaaaaaaaaaaaaaaaa",
+  "password": "$2a$08$PySZqTFZiwgBwjyHbPH6pOHr/y6hgdf8BVroyl1BRyS.9xhbTQtdC",
+  "fullname": "test",
+  "email": "aaaaaaaaaaaaaaaaaaaaaaaaaaa@gmail.com",
+  "phone_number": null,
+  "avatar": "/uploads/users/avatar.jpg",
+  "gender": "Unknown",
+  "dob": null,
+  "address": null,
+  "status": null,
+  "verified": "inactive",
+  "isAdmin": false,
+  "resetPasswordToken": null,
+  "emailVerificationToken": "7e003a21bf770323fca519d3094c675fc98faf8cc3fcc3e73fb67ed972a92f24",
+  "emailVerificationExpire": {
+    "$date": "2024-11-01T09:31:09.584Z"
+  },
+  "createdAt": {
+    "$date": "2024-11-01T09:16:09.490Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-01T09:16:09.585Z"
+  },
+  "__v": 0
+}]

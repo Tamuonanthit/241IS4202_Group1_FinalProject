@@ -1,0 +1,171 @@
+<!--Header-->
+<div class="home-container">
+  <div class="image-wrapper">
+    <h1>Phòng Nghỉ</h1>
+    <div class="image-overlay">
+      <img src="assets/image/room2.png" alt="" />
+    </div>
+  </div>
+</div>
+<!-- Thanh đặt phòng -->
+<div class="container-book" #bookingSection>
+  <form id="booking-form" (submit)="onBookingSubmit($event)">
+    <div class="form-group">
+      <h1>Best Rate <br />Guarantee</h1>
+      <div>
+        <label for="arrival-date">Ngày đến:</label>
+        <input type="date" id="arrival-date" [(ngModel)]="arrivalDate" name="arrivalDate" required />
+      </div>
+      <div>
+        <label for="departure-date">Ngày đi:</label>
+        <input type="date" id="departure-date" [(ngModel)]="departureDate" name="departureDate" required />
+      </div>
+      <div>
+        <label for="adults">Người lớn:</label>
+        <select id="adults" [(ngModel)]="adults" name="adults" required>
+          <option *ngFor="let adult of [1, 2, 3, 4, 5, 6, 7, 8, 9]" [value]="adult">{{ adult }}</option>
+        </select>
+      </div>
+      <div>
+        <label for="children">Trẻ em:</label>
+        <select id="children" [(ngModel)]="children" name="children">
+          <option *ngFor="let child of [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]" [value]="child">{{ child }}</option>
+        </select>
+      </div>
+      <div>
+        <label for="infants">Trẻ sơ sinh:</label>
+        <select id="infants" [(ngModel)]="infants" name="infants">
+          <option *ngFor="let infant of [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]" [value]="infant">{{ infant }}</option>
+        </select>
+      </div>
+      <div>
+        <button type="submit">Đặt phòng</button>
+      </div>
+    </div>
+  </form>
+</div>
+<!-- Tổng quan -->
+<div class="overview">
+  <h1>TỔNG QUAN</h1>
+  <p>
+    Dé Luna Hotel tự hào mang đến một bộ sưu tập độc đáo với 45 phòng nghỉ, phân
+    chia thành 9 hạng phòng khác nhau, nhằm đảm bảo hoàn thiện mọi trải nghiệm
+    của du khách. Được thiết kế với sự tinh tế, tỉ mỉ đạt tiêu chuẩn Quốc tế, Dé
+    Luna Hotel đáp ứng mọi nhu cầu của du khách, kể cả những du khách khó tính
+    nhất.
+  </p>
+</div>
+<!-- Phần list room -->
+<div class="container-room">
+  <div class="room" *ngFor="let room of rooms" [attr.id]="room.id">
+    <img [src]="room.image" [alt]="'Phòng ' + room.name" />
+    <h2>{{ room.name }}</h2>
+    <div class="room-details">
+      <div class="detail-column detail-title">
+        <p>Diện tích:</p>
+        <p>Giường:</p>
+        <p>Ban công:</p>
+      </div>
+      <div class="detail-column detail-value">
+        <p>{{ room.size }}</p>
+        <p>{{ room.bed }}</p>
+        <p>{{ room.balcony }}</p>
+      </div>
+    </div>
+    <div class="room-actions">
+      <button class="book-button" (click)="bookRoom(room)">
+        Đặt Phòng
+      </button>
+      <a [routerLink]="['/room', room.id]" class="details-link">
+        <span style="letter-spacing: 5px">Chi tiết</span
+        ><span class="arrow">→</span>
+      </a>
+    </div>
+  </div>
+</div>
+<!--Phần service-->
+<div class="services-container">
+  <h1>Tiện ích & Dịch vụ</h1>
+  <div class="services">
+    <div class="service-item">
+      <img src="assets/icon/iconwifi.png" alt="WiFi miễn phí" />
+      <p>WiFi miễn phí</p>
+    </div>
+    <div class="service-item">
+      <img src="assets/icon/iconspa.png" alt="Spa" />
+      <p>Spa</p>
+    </div>
+    <div class="service-item">
+      <img src="assets/icon/iconrestaurant.png" alt="Nhà hàng" />
+      <p>Nhà hàng</p>
+    </div>
+    <div class="service-item">
+      <img src="assets/icon/iconbar.png" alt="Bar" />
+      <p>Bar</p>
+    </div>
+    <div class="service-item">
+      <img src="assets/icon/iconkid.png" alt="Giải trí" />
+      <p>Giải trí</p>
+    </div>
+    <div class="service-item">
+      <img src="assets/icon/icongym.png" alt="Phòng tập yoga" />
+      <p>Yoga</p>
+    </div>
+  </div>
+  <a routerLink="/service" routerLinkActive="active" class="details-link">
+    <span style="letter-spacing: 5px">Xem tất cả</span
+    ><span class="arrow">→</span>
+  </a>
+</div>
+<!--Phần regulation-->
+<div class="regulation">
+  <h1>Quy định chung</h1>
+  <div class="row">
+    <div class="column">
+      <h3>Quy định thời gian nhận và trả phòng</h3>
+      <ul>
+        <li>
+          Thời gian nhận phòng là từ 15:00 giờ và thời gian trả phòng là 12:00
+          giờ
+        </li>
+      </ul>
+    </div>
+    <div class="column">
+      <h3>Chấp nhận thanh toán</h3>
+      <ul>
+        <li>
+          Tất cả các khoản thanh toán phải được thực hiện bằng chuyển khoản vào
+          tài khoản ngân hàng của Hôtel de l’Amour Tam Đảo.
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Hàng 2 -->
+  <div class="row">
+    <div class="column">
+      <h3>Nhận phòng sớm & Trả phòng muộn</h3>
+      <ul>
+        <li>
+          Nếu khách muốn đảm bảo việc nhận phòng sớm hoặc trả phòng muộn, khách
+          phải trả thêm phí theo quy định của khách sạn và phụ thuộc vào tình
+          trạng phòng trống của khách sạn.
+        </li>
+      </ul>
+    </div>
+    <div class="column">
+      <h3>Chính sách trẻ em đi kèm</h3>
+      <ul>
+        <li>
+          Khách cần xuất trình chứng minh thư/ Căn cước công dân hoặc hộ chiếu
+          và/hoặc Giấy chứng nhận khai sinh đối với trẻ em khi làm thủ tục nhận
+          phòng để phục vụ mục đích đăng ký. Khách Sạn sẽ giữ một bản sao của
+          những giấy tờ trên theo yêu cầu của Khách Sạn.
+        </li>
+        <li>
+          Trẻ em đi kèm (phụ thu,…): Theo chính sách phụ thu của khách sạn.
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

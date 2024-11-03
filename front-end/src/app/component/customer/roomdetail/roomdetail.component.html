@@ -1,0 +1,98 @@
+<!--Thông tin phỏng-->
+<div *ngIf="room">
+  <div class="overview">
+    <h1>{{ room.name }}</h1>
+    <div style="text-align: center; margin: 30px">
+      <img [src]="room.image" [alt]="room.name" class="room-image" />
+    </div>
+    <div class="room-details">
+      <table class="room-detail-table">
+        <tr>
+          <td class="detail-title">Diện tích:</td>
+          <td class="detail-value">{{ room.size }}</td>
+        </tr>
+        <tr>
+          <td class="detail-title">Giường:</td>
+          <td class="detail-value">{{ room.bed }}</td>
+        </tr>
+        <tr>
+          <td class="detail-title">Ban công:</td>
+          <td class="detail-value">{{ room.balcony }}</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- Tiện ích & Dịch vụ -->
+<div class="services-container">
+  <h1>Tiện ích & Dịch vụ</h1>
+  <div class="services">
+    <div class="service-item">
+      <img src="assets/icon/iconwifi.png" alt="WiFi miễn phí" />
+      <p>WiFi miễn phí</p>
+    </div>
+    <div class="service-item">
+      <img src="assets/icon/iconspa.png" alt="Spa" />
+      <p>Spa</p>
+    </div>
+    <div class="service-item">
+      <img src="assets/icon/iconrestaurant.png" alt="Nhà hàng" />
+      <p>Nhà hàng</p>
+    </div>
+    <div class="service-item">
+      <img src="assets/icon/iconbar.png" alt="Bar" />
+      <p>Bar</p>
+    </div>
+    <div class="service-item">
+      <img src="assets/icon/iconkid.png" alt="Giải trí" />
+      <p>Giải trí</p>
+    </div>
+    <div class="service-item">
+      <img src="assets/icon/icongym.png" alt="Phòng tập yoga" />
+      <p>Yoga</p>
+    </div>
+  </div>
+  <a routerLink="/service" routerLinkActive="active" class="details-link">
+    <span style="letter-spacing: 5px">Xem tất cả</span
+    ><span class="arrow">→</span>
+  </a>
+</div>
+<div class="services-container" style="background-color: white">
+  <h1>Tiện ích trong phòng</h1>
+  <div class="container">
+    <!-- Cột 1 -->
+    <div class="column">
+      <ul>
+        <li>Túi giặt là</li>
+        <li>Dép đi trong nhà</li>
+        <li>Cây xỏ giày</li>
+        <li>Bàn ủi và cầu ủi</li>
+        <li>Ô che</li>
+        <li>Trà, cà phê, nước khoáng</li>
+      </ul>
+    </div>
+
+    <!-- Cột 2 -->
+    <div class="column">
+      <ul>
+        <li>Wifi miễn phí</li>
+        <li>Tivi 50 inch</li>
+        <li>Điện thoại</li>
+        <li>Két an toàn</li>
+        <li>Tủ minibar</li>
+        <li>Cân điện tử</li>
+      </ul>
+    </div>
+
+    <!-- Cột 3 -->
+    <div class="column">
+      <ul>
+        <li>Áo choàng tắm</li>
+        <li>Máy sấy tóc</li>
+        <li>Đồ vệ sinh cá nhân</li>
+        <li>Đèn pin</li>
+      </ul>
+    </div>
+  </div>
+</div>

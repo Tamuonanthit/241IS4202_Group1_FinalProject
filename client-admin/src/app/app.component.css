@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  height: 100vh; /* Full viewport height */
+}
+
+app-left-side-bar {
+  flex: 2.5; /* Adjust this value as needed */
+  background-color: #f0f0f0; /* Optional: Background color for visibility */
+}
+
+.content {
+  margin-left: 1rem; /* Adjust this value as needed */
+  flex: 7.5; /* Adjust this value as needed */
+  overflow-y: auto; /* Ensure content is scrollable if it overflows */
+}

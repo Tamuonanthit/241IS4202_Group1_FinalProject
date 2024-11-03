@@ -1,0 +1,374 @@
+/* Importing Google Fonts correctly */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  background-color: white;
+}
+
+.home-container {
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+}
+
+.header-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.image-wrapper {
+  position: relative;
+  height: 50vh;
+  overflow: hidden;
+}
+
+.image-wrapper h1 {
+  position: absolute;
+  line-height: 1px;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: "Playfair Display", serif;
+  font-size: 6vw;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-overlay {
+  position: relative;
+  display: inline-block;
+}
+
+.image-overlay img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.image-overlay::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+/*Phần header*/
+.room-header {
+  position: relative;
+  width: 100%;
+  height: 500px; /* Điều chỉnh chiều cao nếu cần */
+}
+
+.room-bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Đảm bảo hình nền chiếm toàn bộ không gian */
+}
+
+.room-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 80px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7); /* Thêm bóng cho chữ để rõ hơn trên nền */
+}
+
+/*Phần thanh booking*/
+.container-book {
+  display: flex;
+  vertical-align: middle;
+  flex-direction: column;
+  background: #cb9847;
+  padding: 0px 20px;
+  border-radius: 8px;
+  height: 80px;
+  margin: 20px;
+  margin-bottom: 40px;
+}
+
+h1 {
+  text-align: left;
+  color: white;
+  font-size: 20px;
+  font-family: "Playfair Display";
+  line-height: 30px;
+}
+
+.form-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-group label {
+  flex: 1 1 100%;
+  margin-right: 5px;
+  color: white;
+}
+
+input[type="date"],
+input[type="number"],
+select {
+  flex: 1 1 calc(33% - 10px);
+  padding: 10px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-right: 10px;
+}
+
+input[type="date"]:last-child,
+select:last-child {
+  margin-right: 0;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #2e141e;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+/*Phần Overview*/
+.overview {
+  margin: 20px;
+}
+.overview h1 {
+  font-family: "Playfair Display", serif;
+  letter-spacing: 5;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #cb9847;
+  font-size: 25px;
+  position: relative;
+  font-weight: 600;
+}
+
+.overview p {
+  line-height: 1.5;
+  color: black;
+  text-align: center;
+}
+
+/*Phần list room*/
+.container-room {
+  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin: 20px;
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  gap: 40px;
+}
+
+.room {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  padding: 20px;
+}
+
+.room img {
+  width: 100%;
+  height: auto;
+}
+
+.room h2 {
+  color: #cb9847;
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+}
+
+/* Phần mô tả phòng với 2 cột */
+.room-details {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.detail-column {
+  flex: 1;
+}
+
+.detail-title {
+  text-align: left; /* Căn lề trái cho tiêu đề */
+}
+
+.detail-value {
+  text-align: right; /* Căn lề phải cho giá trị */
+}
+
+.label {
+  text-align: left;
+  font-weight: bold;
+}
+
+.value {
+  text-align: right;
+}
+
+.room-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.book-button {
+  background-color: #161616;
+  width: 150px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+}
+
+.details-link {
+  color: #cb9847;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.details-link:hover {
+  text-decoration: underline;
+}
+
+/*Phần Services*/
+.services-container {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 0;
+  background-color: #f8f0e4;
+}
+
+.services-container h1 {
+  font-family: "Playfair Display", serif;
+  letter-spacing: 5;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #161616;
+  font-size: 25px;
+  position: relative;
+  text-decoration: none;
+  font-weight: 600;
+}
+.services-container h1::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -15px;
+  width: 200px;
+  height: 1px;
+  background-color: #161616;
+  margin-top: -20px;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.service-item {
+  padding: 20px;
+}
+
+.service-item img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.service-item p {
+  font-size: 16px;
+  color: #161616;
+}
+
+/*Phần quy định*/
+.regulation {
+  margin: 40px;
+}
+
+.regulation h1 {
+  font-family: "Playfair Display", serif;
+  letter-spacing: 5;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #161616;
+  font-size: 25px;
+  position: relative;
+  text-decoration: none;
+  font-weight: 600;
+}
+.regulation h1::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -15px;
+  width: 200px;
+  height: 1px;
+  background-color: #161616;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.column {
+  flex: 1;
+  border-radius: 8px;
+}
+
+.column h3 {
+  font-family: "Playfair Display", serif;
+  color: #cb9847;
+  font-size: 20px;
+  line-height: 45px;
+}
+
+.column ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.column ul li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.column ul li span {
+  font-weight: bold;
+}
