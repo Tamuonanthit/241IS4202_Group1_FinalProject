@@ -17,8 +17,8 @@ const checkRoomAvailability = async (roomId, checkInDate, checkOutDate) => {
     $or: [
       { $and: [{ check_in_date: { $lte: checkInDate } }, { check_out_date: { $gte: checkOutDate } }] },
       { $and: [{ check_in_date: { $gte: checkInDate } }, { check_out_date: { $lte: checkOutDate } }] },
-      { check_in_date: { $lte: checkOutDate } },
-      { check_out_date: { $gte: checkInDate } }
+      { $and: [{ check_in_date: { $lte: checkOutDate } }, { check_out_date: { $gte: checkOutDate } }] },
+      { $and: [{ check_out_date: { $gte: checkInDate } }, { check_in_date: { $lte: checkInDate } }] }
     ]
   });
 
