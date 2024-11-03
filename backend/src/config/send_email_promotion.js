@@ -14,6 +14,7 @@ const sendEmailPromotion = async (res, email, url, subject, message, title) => {
       <div>
         <h4>${title}</h4>
         <p>${message}</p>
+        <a href="${url}" target="_blank"> >>> Click Here</a>
       </div>
     `,
   };
