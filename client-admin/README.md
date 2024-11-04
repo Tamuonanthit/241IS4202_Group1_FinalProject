@@ -6,6 +6,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Username: tui-ne
 Password: Tamuonanthit
+## Install NodeModule
+
+Run `npm i` in terminal to install required package 
 
 ## Development server
 
