@@ -31,6 +31,8 @@ import { AddUserComponent } from './components/add-user/add-user.component';
 import { OrderDetailComponent } from './components/order-detail/order-detail.component';
 import { AddOrderComponent } from './components/add-order/add-order.component';
 import { MatSelectModule } from '@angular/material/select';
+import { AddRoomComponent } from './components/add-room/add-room.component';
+import { ConfirmLogoutDialogComponent } from './components/confirm-logout-dialog/confirm-logout-dialog.component';
 
 @NgModule({
   declarations: [
@@ -47,6 +49,8 @@ import { MatSelectModule } from '@angular/material/select';
     AddUserComponent,
     OrderDetailComponent,
     AddOrderComponent,
+    AddRoomComponent,
+    ConfirmLogoutDialogComponent,
   ],
   imports: [
     BrowserModule,

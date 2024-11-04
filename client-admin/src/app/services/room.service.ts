@@ -19,6 +19,17 @@ export class RoomService {
     };
     return this.http.get<any>(`${this.apiUrl}/get-room`, { headers });
   }
+  addRoom(roomId: string): Observable<any> {
+    const token = 'Bearer ' + localStorage.getItem('authorization');
+    const url = `${this.apiUrl}/add-room/${roomId}`;
+    const headers = {
+      Authorization: token,
+      'Content-Type': 'application/json',
+    };
+    return this.http.post<any>(`${this.apiUrl}/add-room`, roomId, {
+      headers,
+    });
+  }
   deleteRoom(roomId: string): Observable<any> {
     const token = 'Bearer ' + localStorage.getItem('authorization');
     const url = `${this.apiUrl}/delete-room/${roomId}`;

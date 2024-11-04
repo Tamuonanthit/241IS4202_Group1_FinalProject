@@ -71,6 +71,7 @@ export class RoomComponent implements OnInit, AfterViewInit {
       }
     });
   }
+  
   deleteRoom(roomId: string): void {
     const dialogRef = this.dialog.open(ConfirmComponent, {
       width: '30%',
