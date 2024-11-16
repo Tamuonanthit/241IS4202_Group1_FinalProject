@@ -1,6 +1,14 @@
+
 # Admin
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.11.
+## Admin Account
+
+Username: tui-ne
+Password: Tamuonanthit
+## Install NodeModule
+
+Run `npm i` in terminal to install required package 
 
 ## Development server
 

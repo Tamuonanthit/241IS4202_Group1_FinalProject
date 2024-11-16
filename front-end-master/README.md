@@ -1,6 +1,9 @@
 # FrontEnd
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.6.
+## Install NodeModule
+
+Run `npm i` in terminal to install required package 
 
 ## Development server
 
