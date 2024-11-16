@@ -1,0 +1,318 @@
+/* Importing Google Fonts correctly */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+/* Body */
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  background-image: url("/assets/image/listbg.png");
+}
+/*Check availibitly*/
+/*Phần thanh booking*/
+.container-book {
+  display: flex;
+  vertical-align: middle;
+  flex-direction: column;
+  background: #cb9847;
+  padding: 0px 20px;
+  border-radius: 8px;
+  height: 80px;
+  margin: 20px;
+  margin-bottom: 40px;
+}
+
+h1 {
+  text-align: left;
+  color: white;
+  font-size: 20px;
+  font-family: "Playfair Display";
+  line-height: 30px;
+}
+
+.form-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-group label {
+  flex: 1 1 100%;
+  margin-right: 5px;
+  color: white;
+}
+
+input[type="date"],
+input[type="number"],
+select {
+  flex: 1 1 calc(33% - 10px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-right: 10px;
+}
+
+input[type="date"]:last-child,
+select:last-child {
+  margin-right: 0;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #2e141e;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+/*List availibility*/
+.container {
+  display: grid;
+  grid-template-columns: 3.5fr 1.5fr;
+  gap: 20px;
+  padding: 20px;
+}
+h2 {
+  font-size: 30px;
+  color: #cb9847;
+  font-family: "Playfair Display";
+  margin-top: 5px;
+}
+
+.cart-2 {
+  padding: 20px;
+  background-color: rgba(221, 221, 221, 0.9); /* Màu xám với opacity là 0.7 */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Thêm bóng đổ nhẹ để nổi bật */
+  align-content: center;
+  height: fit-content;
+}
+
+.cart {
+  padding: 20px;
+  background-color: rgba(221, 221, 221, 0.9); /* Màu xám với opacity là 0.7 */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Thêm bóng đổ nhẹ để nổi bật */
+}
+
+.invoice {
+  background-color: #f5f5f5;
+  border-color: #bbb;
+  max-width: 400px; /* Giới hạn chiều rộng của hóa đơn */
+  height: auto;
+}
+
+/* Tạo bảng cho phần sản phẩm */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 10px;
+  vertical-align: middle;
+  border-bottom: 1px solid black;
+}
+
+th {
+  font-size: 20px;
+  font-family: "Playfair Display";
+}
+
+/* Tăng khoảng cách giữa các ô ảnh và checkbox */
+.product-image {
+  width: 
+  0px;
+  height: 60px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.product-details a {
+  color: #cb9847;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 5px;
+}
+
+.product-details a:hover {
+  text-decoration: underline;
+}
+
+.quantity-control {
+  justify-content: center;
+  height: 100%;
+}
+
+.act {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.act button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #c5a880;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 10px;
+  width: 130px;
+}
+
+.quantity-control input {
+  width: 50px;
+  text-align: center;
+  padding: 5px; /* Đảm bảo padding đồng đều */
+  border: 1px solid #ddd; /* Thêm border để đồng nhất */
+}
+
+.remove {
+  cursor: pointer;
+  color: red;
+  text-align: center;
+  padding: 5px; /* Đảm bảo padding đồng đều */
+  height: 30px; /* Đảm bảo chiều cao đồng nhất */
+}
+
+/* Nút thêm phòng và đặt phòng */
+.cart-footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.cart-footer button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #c5a880;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.cart-footer button:hover {
+  background-color: #c5a880;
+}
+
+/* Styling the invoice */
+.invoice-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-top: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.invoice-details label {
+  text-align: left;
+}
+
+.invoice-details .value {
+  text-align: right;
+}
+
+.invoice-details .discount-code {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.discount-code input {
+  padding: 5px;
+  width: 120px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.discount-code button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #c5a880;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.discount-code button:hover {
+  background-color: #0056b3;
+}
+
+/* Additional styles for invoice */
+.invoice {
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.invoice h2 {
+  margin-bottom: 10px;
+}
+
+.invoice-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.invoice-footer p {
+  margin: 5px 0;
+}
+
+.invoice-footer .total {
+  font-weight: bold;
+}
+
+.modal {
+  display: flex;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  position: relative; /* Giữ nguyên */
+}
+
+.modal-image {
+  max-width: 80%;   /* Tối đa chiều rộng */
+  max-height: 80%;  /* Tối đa chiều cao */
+}
+
+.close {
+  position: absolute;
+  top: 15px;        /* Khoảng cách từ trên */
+  right: 15px;      /* Khoảng cách từ bên phải */
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 1001;    /* Đảm bảo nút đóng ở trên cùng */
+}

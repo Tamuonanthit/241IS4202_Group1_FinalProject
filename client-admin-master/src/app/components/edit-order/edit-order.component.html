@@ -1,0 +1,20 @@
+<div class="mat-dialog-container">
+  <h1 mat-dialog-title>Cập nhật trạng thái đặt phòng</h1>
+  <div mat-dialog-content>
+
+    <mat-form-field>
+      <mat-label>Trạng thái</mat-label>
+      <mat-select [(ngModel)]="data.booking_status">
+        <mat-option value="pending">Pending</mat-option>
+        <mat-option value="canceled">Canceled</mat-option>
+        <mat-option value="paid">Paid</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    
+  </div>
+  <div mat-dialog-actions>
+    <button mat-button (click)="onNoClick()">Hủy</button>
+    <button mat-button (click)="save()">Lưu</button>
+  </div>
+</div>

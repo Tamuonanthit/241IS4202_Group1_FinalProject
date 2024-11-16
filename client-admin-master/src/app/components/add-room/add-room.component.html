@@ -1,0 +1,27 @@
+<!-- edit-user.component.html -->
+<div class="mat-dialog-container">
+    <h1 mat-dialog-title>Thêm phòng</h1>
+    <div mat-dialog-content>
+      <mat-form-field>
+        <mat-label>Mã phòng</mat-label>
+        <input matInput [(ngModel)]="data._id" />
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Tên loại phòng</mat-label>
+        <input matInput [(ngModel)]="data.room_name" />
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Giá</mat-label>
+        <input matInput [(ngModel)]="data.room_price" />
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Tình trạng</mat-label>
+        <input matInput [(ngModel)]="data.room_status" />
+      </mat-form-field>
+    </div>
+    <div mat-dialog-actions>
+      <button mat-button (click)="onNoClick()">Hủy</button>
+      <button mat-button (click)="save()">Thêm</button>
+    </div>
+  </div>
+  

@@ -5,7 +5,7 @@ const { createSuccess, createError } = require('../config/response');
 const convertDate = require('../func/convertDate')
 const mongoose = require('mongoose');
 
-// Function to create a new booking
+
 exports.createBooking = async (req, res) => {
   const { check_in_date, check_out_date, guest, total_amount, checkin_time, special_request, contact_infor } = req.body;
   

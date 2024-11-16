@@ -1,0 +1,29 @@
+/* Center the dialog content and set a max width */
+.mat-dialog-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  max-width: 600px; /* Adjust the max-width as needed */
+  margin: auto;
+}
+
+/* Style the form fields */
+mat-form-field {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+/* Style the dialog actions */
+.mat-dialog-actions {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+/* Style the buttons */
+button {
+  margin-left: 8px;
+}

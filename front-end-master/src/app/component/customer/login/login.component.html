@@ -1,0 +1,71 @@
+<div class="login-wrapper">
+  <div class="login-container">
+    <div class="login-content">
+      <h2 class="form-title">ĐĂNG NHẬP</h2>
+      <form [formGroup]="loginForm" method="post" (ngSubmit)="onLogin()">
+        <div class="form-group">
+          <label for="username">Tên tài khoản</label>
+          <input
+            id="username"
+            type="username"
+            formControlName="username"
+            placeholder="Tên tài khoản"
+            required
+          />
+          <div
+            *ngIf="
+              loginForm['controls']['username'].dirty &&
+              loginForm['controls']['username'].errors
+            "
+            class="error-message"
+          >
+            <small *ngIf="loginForm['controls']['username'].errors['required']">
+              Tên tài khoản không được để trống
+            </small>
+            <small
+              *ngIf="loginForm['controls']['username'].errors['pattern']"
+            >
+              Tên tài khoản không được có khoảng trắng và không có dấu
+            </small>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="password">Mật khẩu</label>
+          <input
+            id="password"
+            type="password"
+            formControlName="password"
+            placeholder="Mật khẩu"
+            required
+          />
+          <div
+            *ngIf="
+              loginForm['controls']['password'].dirty &&
+              loginForm['controls']['password'].errors
+            "
+            class="error-message"
+          >
+            <small *ngIf="loginForm['controls']['password'].errors['required']">
+              Mật khẩu không được để trống
+            </small>
+          </div>
+        </div>
+
+        <a routerLink="" class="forgot-password">Quên mật khẩu?</a>
+
+        <button
+          type="submit"
+          [disabled]="!loginForm.valid"
+          [ngClass]="{ 'cursor-not-allowed': !loginForm.valid }"
+          class="login-button"
+        >
+          Đăng nhập
+        </button>
+        <p class="terms">
+          Nếu bạn chưa có tài khoản hãy ấn
+          <a routerLink="/signup" class="terms-link">Đăng ký</a>
+        </p>
+      </form>
+    </div>
+  </div>
+</div>
